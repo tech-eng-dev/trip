@@ -1,0 +1,2103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeftBarView renders correctly renders as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LeftSideView
+    fetchAllRecords={[Function]}
+    fetchBlockData={[Function]}
+    fetchMyRecords={[Function]}
+    fetchUsers={[Function]}
+    listenUserProfile={[Function]}
+    logout={[Function]}
+    myPhoto=""
+    myProfile={
+      Object {
+        "blocked": false,
+        "email": "litian19901120@gmail.com",
+        "name": "Tian Li",
+        "photo": "",
+        "role": "Manager",
+        "uid": "7MnU3xgql7O5RduyY2TpNig4KtA2",
+      }
+    }
+    onSelect={[Function]}
+    saveAllRecords={[Function]}
+    saveBlockData={[Function]}
+    saveMyRecords={[Function]}
+    saveUserPhoto={[Function]}
+    saveUserProfile={[Function]}
+    saveUsers={[Function]}
+    setFilterOption={[Function]}
+    showToast={[Function]}
+    welcome={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 120,
+              "marginBottom": 40,
+            }
+          }
+        >
+          <ImageProgress
+            errorContainerStyle={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            indicator={[Function]}
+            indicatorContainerStyle={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            source=""
+            style={
+              Object {
+                "borderRadius": 60,
+                "height": 120,
+                "overflow": "hidden",
+                "width": 120,
+              }
+            }
+            threshold={50}
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "black",
+                  "fontSize": 22,
+                  "fontWeight": "bold",
+                  "padding": 5,
+                }
+              }
+            >
+              Tian Li
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#5C6063",
+                  "fontSize": 16,
+                  "padding": 5,
+                }
+              }
+            >
+              Manager
+            </Text>
+          </View>
+        </View>,
+        Array [
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            testID="manager-browse"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="md-browsers"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Browse Users
+              </Text>
+            </View>
+          </TouchableOpacity>,
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            testID="manager-profile"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="ios-person-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Profile
+              </Text>
+            </View>
+          </TouchableOpacity>,
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            testID="manager-invite"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="ios-send-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Invite
+              </Text>
+            </View>
+          </TouchableOpacity>,
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            testID="logout"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="ios-log-out-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Log out
+              </Text>
+            </View>
+          </TouchableOpacity>,
+        ],
+      ],
+      "style": Object {
+        "backgroundColor": "#3DA0F1",
+        "flex": 1,
+        "paddingLeft": 20,
+        "paddingTop": 50,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <ImageProgress
+              errorContainerStyle={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              indicator={[Function]}
+              indicatorContainerStyle={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              source=""
+              style={
+                Object {
+                  "borderRadius": 60,
+                  "height": 120,
+                  "overflow": "hidden",
+                  "width": 120,
+                }
+              }
+              threshold={50}
+            />,
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "padding": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 22,
+                    "fontWeight": "bold",
+                    "padding": 5,
+                  }
+                }
+              >
+                Tian Li
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 16,
+                    "padding": 5,
+                  }
+                }
+              >
+                Manager
+              </Text>
+            </View>,
+          ],
+          "style": Object {
+            "flexDirection": "row",
+            "height": 120,
+            "marginBottom": 40,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "errorContainerStyle": Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              "indicator": [Function],
+              "indicatorContainerStyle": Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              "source": "",
+              "style": Object {
+                "borderRadius": 60,
+                "height": 120,
+                "overflow": "hidden",
+                "width": 120,
+              },
+              "threshold": 50,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "padding": 5,
+                    }
+                  }
+                >
+                  Tian Li
+                </Text>,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 16,
+                      "padding": 5,
+                    }
+                  }
+                >
+                  Manager
+                </Text>,
+              ],
+              "style": Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "padding": 20,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Tian Li",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "black",
+                    "fontSize": 22,
+                    "fontWeight": "bold",
+                    "padding": 5,
+                  },
+                },
+                "ref": null,
+                "rendered": "Tian Li",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Manager",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "#5C6063",
+                    "fontSize": 16,
+                    "padding": 5,
+                  },
+                },
+                "ref": null,
+                "rendered": "Manager",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 0.2,
+          "children": <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              }
+            }
+          >
+            <Component
+              name="md-browsers"
+              size={30}
+              style={
+                Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                }
+              }
+            >
+              Browse Users
+            </Text>
+          </View>,
+          "onPress": [Function],
+          "testID": "manager-browse",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Component
+                name="md-browsers"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Browse Users
+              </Text>,
+            ],
+            "style": Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "md-browsers",
+                "size": 30,
+                "style": Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "Component",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Browse Users",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                },
+              },
+              "ref": null,
+              "rendered": "Browse Users",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 0.2,
+          "children": <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              }
+            }
+          >
+            <Component
+              name="ios-person-outline"
+              size={30}
+              style={
+                Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                }
+              }
+            >
+              Profile
+            </Text>
+          </View>,
+          "onPress": [Function],
+          "testID": "manager-profile",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Component
+                name="ios-person-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Profile
+              </Text>,
+            ],
+            "style": Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "ios-person-outline",
+                "size": 30,
+                "style": Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "Component",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Profile",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                },
+              },
+              "ref": null,
+              "rendered": "Profile",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 0.2,
+          "children": <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              }
+            }
+          >
+            <Component
+              name="ios-send-outline"
+              size={30}
+              style={
+                Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                }
+              }
+            >
+              Invite
+            </Text>
+          </View>,
+          "onPress": [Function],
+          "testID": "manager-invite",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Component
+                name="ios-send-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Invite
+              </Text>,
+            ],
+            "style": Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "ios-send-outline",
+                "size": 30,
+                "style": Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "Component",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Invite",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                },
+              },
+              "ref": null,
+              "rendered": "Invite",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 0.2,
+          "children": <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              }
+            }
+          >
+            <Component
+              name="ios-log-out-outline"
+              size={30}
+              style={
+                Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                }
+              }
+            >
+              Log out
+            </Text>
+          </View>,
+          "onPress": [Function],
+          "testID": "logout",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Component
+                name="ios-log-out-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Log out
+              </Text>,
+            ],
+            "style": Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "ios-log-out-outline",
+                "size": 30,
+                "style": Object {
+                  "color": "#F5FAFE",
+                  "fontSize": 30,
+                  "textAlign": "center",
+                  "width": 40,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "Component",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Log out",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "backgroundColor": "transparent",
+                  "color": "#F5FAFE",
+                  "fontSize": 20,
+                  "paddingLeft": 15,
+                },
+              },
+              "ref": null,
+              "rendered": "Log out",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 120,
+                "marginBottom": 40,
+              }
+            }
+          >
+            <ImageProgress
+              errorContainerStyle={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              indicator={[Function]}
+              indicatorContainerStyle={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              source=""
+              style={
+                Object {
+                  "borderRadius": 60,
+                  "height": 120,
+                  "overflow": "hidden",
+                  "width": 120,
+                }
+              }
+              threshold={50}
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "padding": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 22,
+                    "fontWeight": "bold",
+                    "padding": 5,
+                  }
+                }
+              >
+                Tian Li
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 16,
+                    "padding": 5,
+                  }
+                }
+              >
+                Manager
+              </Text>
+            </View>
+          </View>,
+          Array [
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              testID="manager-browse"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 80,
+                  }
+                }
+              >
+                <Component
+                  name="md-browsers"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Browse Users
+                </Text>
+              </View>
+            </TouchableOpacity>,
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              testID="manager-profile"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 80,
+                  }
+                }
+              >
+                <Component
+                  name="ios-person-outline"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Profile
+                </Text>
+              </View>
+            </TouchableOpacity>,
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              testID="manager-invite"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 80,
+                  }
+                }
+              >
+                <Component
+                  name="ios-send-outline"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Invite
+                </Text>
+              </View>
+            </TouchableOpacity>,
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              testID="logout"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "height": 80,
+                  }
+                }
+              >
+                <Component
+                  name="ios-log-out-outline"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Log out
+                </Text>
+              </View>
+            </TouchableOpacity>,
+          ],
+        ],
+        "style": Object {
+          "backgroundColor": "#3DA0F1",
+          "flex": 1,
+          "paddingLeft": 20,
+          "paddingTop": 50,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <ImageProgress
+                errorContainerStyle={
+                  Object {
+                    "alignItems": "center",
+                    "bottom": 0,
+                    "justifyContent": "center",
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                indicator={[Function]}
+                indicatorContainerStyle={
+                  Object {
+                    "alignItems": "center",
+                    "bottom": 0,
+                    "justifyContent": "center",
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                source=""
+                style={
+                  Object {
+                    "borderRadius": 60,
+                    "height": 120,
+                    "overflow": "hidden",
+                    "width": 120,
+                  }
+                }
+                threshold={50}
+              />,
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": 20,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "padding": 5,
+                    }
+                  }
+                >
+                  Tian Li
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 16,
+                      "padding": 5,
+                    }
+                  }
+                >
+                  Manager
+                </Text>
+              </View>,
+            ],
+            "style": Object {
+              "flexDirection": "row",
+              "height": 120,
+              "marginBottom": 40,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errorContainerStyle": Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                "indicator": [Function],
+                "indicatorContainerStyle": Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                "source": "",
+                "style": Object {
+                  "borderRadius": 60,
+                  "height": 120,
+                  "overflow": "hidden",
+                  "width": 120,
+                },
+                "threshold": 50,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 22,
+                        "fontWeight": "bold",
+                        "padding": 5,
+                      }
+                    }
+                  >
+                    Tian Li
+                  </Text>,
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 16,
+                        "padding": 5,
+                      }
+                    }
+                  >
+                    Manager
+                  </Text>,
+                ],
+                "style": Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "padding": 20,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "Tian Li",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "black",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "padding": 5,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Tian Li",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "Manager",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "#5C6063",
+                      "fontSize": 16,
+                      "padding": 5,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Manager",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 0.2,
+            "children": <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="md-browsers"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Browse Users
+              </Text>
+            </View>,
+            "onPress": [Function],
+            "testID": "manager-browse",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Component
+                  name="md-browsers"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Browse Users
+                </Text>,
+              ],
+              "style": Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "md-browsers",
+                  "size": 30,
+                  "style": Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "Component",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Browse Users",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  },
+                },
+                "ref": null,
+                "rendered": "Browse Users",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 0.2,
+            "children": <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="ios-person-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Profile
+              </Text>
+            </View>,
+            "onPress": [Function],
+            "testID": "manager-profile",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Component
+                  name="ios-person-outline"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Profile
+                </Text>,
+              ],
+              "style": Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "ios-person-outline",
+                  "size": 30,
+                  "style": Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "Component",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Profile",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  },
+                },
+                "ref": null,
+                "rendered": "Profile",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 0.2,
+            "children": <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="ios-send-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Invite
+              </Text>
+            </View>,
+            "onPress": [Function],
+            "testID": "manager-invite",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Component
+                  name="ios-send-outline"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Invite
+                </Text>,
+              ],
+              "style": Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "ios-send-outline",
+                  "size": 30,
+                  "style": Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "Component",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Invite",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  },
+                },
+                "ref": null,
+                "rendered": "Invite",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 0.2,
+            "children": <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 80,
+                }
+              }
+            >
+              <Component
+                name="ios-log-out-outline"
+                size={30}
+                style={
+                  Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                Log out
+              </Text>
+            </View>,
+            "onPress": [Function],
+            "testID": "logout",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Component
+                  name="ios-log-out-outline"
+                  size={30}
+                  style={
+                    Object {
+                      "color": "#F5FAFE",
+                      "fontSize": 30,
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                />,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#F5FAFE",
+                      "fontSize": 20,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  Log out
+                </Text>,
+              ],
+              "style": Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 80,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "ios-log-out-outline",
+                  "size": 30,
+                  "style": Object {
+                    "color": "#F5FAFE",
+                    "fontSize": 30,
+                    "textAlign": "center",
+                    "width": 40,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "Component",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Log out",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "backgroundColor": "transparent",
+                    "color": "#F5FAFE",
+                    "fontSize": 20,
+                    "paddingLeft": 15,
+                  },
+                },
+                "ref": null,
+                "rendered": "Log out",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,1419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component renders correctly renders as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    allRecords={
+      Array [
+        Object {
+          "comment": "Test",
+          "createdTime": "1518174116204",
+          "endDate": "2018-02-28",
+          "location": Object {
+            "description": "test",
+            "geometry": Object {
+              "location": Object {
+                "lat": "12.34",
+                "lng": "12.34",
+              },
+              "viewport": Object {
+                "northeast": Object {
+                  "lat": "12.34",
+                  "lng": "12.34",
+                },
+                "southwest": Object {
+                  "lat": "12.34",
+                  "lng": "12.34",
+                },
+              },
+            },
+            "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+          },
+          "startDate": "2018-02-04",
+        },
+      ]
+    }
+    allUsers={
+      Object {
+        "VZx9D1IMIdT0gXCtsh2mymcXawd2": Object {
+          "email": "litian19901120@gmail.com",
+          "name": "Tian Li",
+          "photo": "",
+          "role": "User",
+          "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+        },
+      }
+    }
+    blockData={
+      Object {
+        "litian19901120@gmail%2Ecom": 2,
+      }
+    }
+    fetchAllRecords={[Function]}
+    fetchBlockData={[Function]}
+    fetchMyRecords={[Function]}
+    fetchUsers={[Function]}
+    greeting={undefined}
+    listenUserProfile={[Function]}
+    logout={[Function]}
+    myProfile={
+      Object {
+        "email": "litian19901120@gmail.com",
+        "name": "Tian Li",
+        "photo": "",
+        "role": "User",
+        "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+      }
+    }
+    myRecords={
+      Object {
+        "1518174116204": Object {
+          "comment": "Test",
+          "createdTime": "1518174116204",
+          "endDate": "2018-02-28",
+          "location": Object {
+            "description": "test",
+            "geometry": Object {
+              "location": Object {
+                "lat": "12.34",
+                "lng": "12.34",
+              },
+              "viewport": Object {
+                "northeast": Object {
+                  "lat": "12.34",
+                  "lng": "12.34",
+                },
+                "southwest": Object {
+                  "lat": "12.34",
+                  "lng": "12.34",
+                },
+              },
+            },
+            "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+          },
+          "startDate": "2018-02-04",
+        },
+      }
+    }
+    navigation={
+      Object {
+        "goBack": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "role": "User",
+            "trip": Object {
+              "comment": "Test",
+              "createdTime": "1518174116204",
+              "endDate": "2018-02-28",
+              "location": Object {
+                "description": "test",
+                "geometry": Object {
+                  "location": Object {
+                    "lat": 12.34,
+                    "lng": 12.34,
+                  },
+                  "viewport": Object {
+                    "northeast": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                    "southwest": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                  },
+                },
+                "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+              },
+              "startDate": "2018-02-02",
+            },
+            "user": Object {
+              "blocked": false,
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            },
+          },
+        },
+      }
+    }
+    saveAllRecords={[Function]}
+    saveBlockData={[Function]}
+    saveMyRecords={[Function]}
+    saveUserPhoto={[Function]}
+    saveUserProfile={[Function]}
+    saveUsers={[Function]}
+    setFilterOption={[Function]}
+    showToast={[Function]}
+    welcome={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <SideMenu
+        animationFunction={[Function]}
+        animationStyle={[Function]}
+        autoClosing={true}
+        bounceBackOnOverdraw={true}
+        disableGestures={false}
+        edgeHitWidth={60}
+        hiddenMenuOffset={0}
+        isOpen={false}
+        menu={
+          <Connect(LeftSideView)
+            onSelect={[Function]}
+            profile={
+              Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              }
+            }
+          />
+        }
+        menuPosition="left"
+        onChange={[Function]}
+        onMove={[Function]}
+        onSliding={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        openMenuOffset={500}
+        toleranceX={10}
+        toleranceY={10}
+      >
+        <Connect(UserBrowseTrip)
+          handle={
+            Object {
+              "allRecords": Array [
+                Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              ],
+              "allUsers": Object {
+                "VZx9D1IMIdT0gXCtsh2mymcXawd2": Object {
+                  "email": "litian19901120@gmail.com",
+                  "name": "Tian Li",
+                  "photo": "",
+                  "role": "User",
+                  "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                },
+              },
+              "blockData": Object {
+                "litian19901120@gmail%2Ecom": 2,
+              },
+              "fetchAllRecords": [Function],
+              "fetchBlockData": [Function],
+              "fetchMyRecords": [Function],
+              "fetchUsers": [Function],
+              "greeting": undefined,
+              "listenUserProfile": [Function],
+              "logout": [Function],
+              "myProfile": Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              },
+              "myRecords": Object {
+                "1518174116204": Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              },
+              "navigation": Object {
+                "goBack": [MockFunction],
+                "state": Object {
+                  "params": Object {
+                    "role": "User",
+                    "trip": Object {
+                      "comment": "Test",
+                      "createdTime": "1518174116204",
+                      "endDate": "2018-02-28",
+                      "location": Object {
+                        "description": "test",
+                        "geometry": Object {
+                          "location": Object {
+                            "lat": 12.34,
+                            "lng": 12.34,
+                          },
+                          "viewport": Object {
+                            "northeast": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                            "southwest": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                          },
+                        },
+                        "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                      },
+                      "startDate": "2018-02-02",
+                    },
+                    "user": Object {
+                      "blocked": false,
+                      "email": "litian19901120@gmail.com",
+                      "name": "Tian Li",
+                      "photo": "",
+                      "role": "User",
+                      "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                    },
+                  },
+                },
+              },
+              "saveAllRecords": [Function],
+              "saveBlockData": [Function],
+              "saveMyRecords": [Function],
+              "saveUserPhoto": [Function],
+              "saveUserProfile": [Function],
+              "saveUsers": [Function],
+              "setFilterOption": [Function],
+              "showToast": [Function],
+              "welcome": [Function],
+            }
+          }
+          myProfile={
+            Object {
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            }
+          }
+          myRecords={
+            Object {
+              "1518174116204": Object {
+                "comment": "Test",
+                "createdTime": "1518174116204",
+                "endDate": "2018-02-28",
+                "location": Object {
+                  "description": "test",
+                  "geometry": Object {
+                    "location": Object {
+                      "lat": "12.34",
+                      "lng": "12.34",
+                    },
+                    "viewport": Object {
+                      "northeast": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "southwest": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                    },
+                  },
+                  "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                },
+                "startDate": "2018-02-04",
+              },
+            }
+          }
+          onPressLeft={[Function]}
+        />
+      </SideMenu>,
+      "testID": "home",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "animationFunction": [Function],
+        "animationStyle": [Function],
+        "autoClosing": true,
+        "bounceBackOnOverdraw": true,
+        "children": <Connect(UserBrowseTrip)
+          handle={
+            Object {
+              "allRecords": Array [
+                Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              ],
+              "allUsers": Object {
+                "VZx9D1IMIdT0gXCtsh2mymcXawd2": Object {
+                  "email": "litian19901120@gmail.com",
+                  "name": "Tian Li",
+                  "photo": "",
+                  "role": "User",
+                  "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                },
+              },
+              "blockData": Object {
+                "litian19901120@gmail%2Ecom": 2,
+              },
+              "fetchAllRecords": [Function],
+              "fetchBlockData": [Function],
+              "fetchMyRecords": [Function],
+              "fetchUsers": [Function],
+              "greeting": undefined,
+              "listenUserProfile": [Function],
+              "logout": [Function],
+              "myProfile": Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              },
+              "myRecords": Object {
+                "1518174116204": Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              },
+              "navigation": Object {
+                "goBack": [MockFunction],
+                "state": Object {
+                  "params": Object {
+                    "role": "User",
+                    "trip": Object {
+                      "comment": "Test",
+                      "createdTime": "1518174116204",
+                      "endDate": "2018-02-28",
+                      "location": Object {
+                        "description": "test",
+                        "geometry": Object {
+                          "location": Object {
+                            "lat": 12.34,
+                            "lng": 12.34,
+                          },
+                          "viewport": Object {
+                            "northeast": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                            "southwest": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                          },
+                        },
+                        "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                      },
+                      "startDate": "2018-02-02",
+                    },
+                    "user": Object {
+                      "blocked": false,
+                      "email": "litian19901120@gmail.com",
+                      "name": "Tian Li",
+                      "photo": "",
+                      "role": "User",
+                      "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                    },
+                  },
+                },
+              },
+              "saveAllRecords": [Function],
+              "saveBlockData": [Function],
+              "saveMyRecords": [Function],
+              "saveUserPhoto": [Function],
+              "saveUserProfile": [Function],
+              "saveUsers": [Function],
+              "setFilterOption": [Function],
+              "showToast": [Function],
+              "welcome": [Function],
+            }
+          }
+          myProfile={
+            Object {
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            }
+          }
+          myRecords={
+            Object {
+              "1518174116204": Object {
+                "comment": "Test",
+                "createdTime": "1518174116204",
+                "endDate": "2018-02-28",
+                "location": Object {
+                  "description": "test",
+                  "geometry": Object {
+                    "location": Object {
+                      "lat": "12.34",
+                      "lng": "12.34",
+                    },
+                    "viewport": Object {
+                      "northeast": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "southwest": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                    },
+                  },
+                  "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                },
+                "startDate": "2018-02-04",
+              },
+            }
+          }
+          onPressLeft={[Function]}
+        />,
+        "disableGestures": false,
+        "edgeHitWidth": 60,
+        "hiddenMenuOffset": 0,
+        "isOpen": false,
+        "menu": <Connect(LeftSideView)
+          onSelect={[Function]}
+          profile={
+            Object {
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            }
+          }
+        />,
+        "menuPosition": "left",
+        "onChange": [Function],
+        "onMove": [Function],
+        "onSliding": [Function],
+        "onStartShouldSetResponderCapture": [Function],
+        "openMenuOffset": 500,
+        "toleranceX": 10,
+        "toleranceY": 10,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handle": Object {
+            "allRecords": Array [
+              Object {
+                "comment": "Test",
+                "createdTime": "1518174116204",
+                "endDate": "2018-02-28",
+                "location": Object {
+                  "description": "test",
+                  "geometry": Object {
+                    "location": Object {
+                      "lat": "12.34",
+                      "lng": "12.34",
+                    },
+                    "viewport": Object {
+                      "northeast": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "southwest": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                    },
+                  },
+                  "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                },
+                "startDate": "2018-02-04",
+              },
+            ],
+            "allUsers": Object {
+              "VZx9D1IMIdT0gXCtsh2mymcXawd2": Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              },
+            },
+            "blockData": Object {
+              "litian19901120@gmail%2Ecom": 2,
+            },
+            "fetchAllRecords": [Function],
+            "fetchBlockData": [Function],
+            "fetchMyRecords": [Function],
+            "fetchUsers": [Function],
+            "greeting": undefined,
+            "listenUserProfile": [Function],
+            "logout": [Function],
+            "myProfile": Object {
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            },
+            "myRecords": Object {
+              "1518174116204": Object {
+                "comment": "Test",
+                "createdTime": "1518174116204",
+                "endDate": "2018-02-28",
+                "location": Object {
+                  "description": "test",
+                  "geometry": Object {
+                    "location": Object {
+                      "lat": "12.34",
+                      "lng": "12.34",
+                    },
+                    "viewport": Object {
+                      "northeast": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "southwest": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                    },
+                  },
+                  "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                },
+                "startDate": "2018-02-04",
+              },
+            },
+            "navigation": Object {
+              "goBack": [MockFunction],
+              "state": Object {
+                "params": Object {
+                  "role": "User",
+                  "trip": Object {
+                    "comment": "Test",
+                    "createdTime": "1518174116204",
+                    "endDate": "2018-02-28",
+                    "location": Object {
+                      "description": "test",
+                      "geometry": Object {
+                        "location": Object {
+                          "lat": 12.34,
+                          "lng": 12.34,
+                        },
+                        "viewport": Object {
+                          "northeast": Object {
+                            "lat": 12.34,
+                            "lng": 12.34,
+                          },
+                          "southwest": Object {
+                            "lat": 12.34,
+                            "lng": 12.34,
+                          },
+                        },
+                      },
+                      "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                    },
+                    "startDate": "2018-02-02",
+                  },
+                  "user": Object {
+                    "blocked": false,
+                    "email": "litian19901120@gmail.com",
+                    "name": "Tian Li",
+                    "photo": "",
+                    "role": "User",
+                    "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                  },
+                },
+              },
+            },
+            "saveAllRecords": [Function],
+            "saveBlockData": [Function],
+            "saveMyRecords": [Function],
+            "saveUserPhoto": [Function],
+            "saveUserProfile": [Function],
+            "saveUsers": [Function],
+            "setFilterOption": [Function],
+            "showToast": [Function],
+            "welcome": [Function],
+          },
+          "myProfile": Object {
+            "email": "litian19901120@gmail.com",
+            "name": "Tian Li",
+            "photo": "",
+            "role": "User",
+            "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+          },
+          "myRecords": Object {
+            "1518174116204": Object {
+              "comment": "Test",
+              "createdTime": "1518174116204",
+              "endDate": "2018-02-28",
+              "location": Object {
+                "description": "test",
+                "geometry": Object {
+                  "location": Object {
+                    "lat": "12.34",
+                    "lng": "12.34",
+                  },
+                  "viewport": Object {
+                    "northeast": Object {
+                      "lat": "12.34",
+                      "lng": "12.34",
+                    },
+                    "southwest": Object {
+                      "lat": "12.34",
+                      "lng": "12.34",
+                    },
+                  },
+                },
+                "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+              },
+              "startDate": "2018-02-04",
+            },
+          },
+          "onPressLeft": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": undefined,
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <SideMenu
+          animationFunction={[Function]}
+          animationStyle={[Function]}
+          autoClosing={true}
+          bounceBackOnOverdraw={true}
+          disableGestures={false}
+          edgeHitWidth={60}
+          hiddenMenuOffset={0}
+          isOpen={false}
+          menu={
+            <Connect(LeftSideView)
+              onSelect={[Function]}
+              profile={
+                Object {
+                  "email": "litian19901120@gmail.com",
+                  "name": "Tian Li",
+                  "photo": "",
+                  "role": "User",
+                  "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                }
+              }
+            />
+          }
+          menuPosition="left"
+          onChange={[Function]}
+          onMove={[Function]}
+          onSliding={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
+          openMenuOffset={500}
+          toleranceX={10}
+          toleranceY={10}
+        >
+          <Connect(UserBrowseTrip)
+            handle={
+              Object {
+                "allRecords": Array [
+                  Object {
+                    "comment": "Test",
+                    "createdTime": "1518174116204",
+                    "endDate": "2018-02-28",
+                    "location": Object {
+                      "description": "test",
+                      "geometry": Object {
+                        "location": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "viewport": Object {
+                          "northeast": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                          "southwest": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                        },
+                      },
+                      "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                    },
+                    "startDate": "2018-02-04",
+                  },
+                ],
+                "allUsers": Object {
+                  "VZx9D1IMIdT0gXCtsh2mymcXawd2": Object {
+                    "email": "litian19901120@gmail.com",
+                    "name": "Tian Li",
+                    "photo": "",
+                    "role": "User",
+                    "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                  },
+                },
+                "blockData": Object {
+                  "litian19901120@gmail%2Ecom": 2,
+                },
+                "fetchAllRecords": [Function],
+                "fetchBlockData": [Function],
+                "fetchMyRecords": [Function],
+                "fetchUsers": [Function],
+                "greeting": undefined,
+                "listenUserProfile": [Function],
+                "logout": [Function],
+                "myProfile": Object {
+                  "email": "litian19901120@gmail.com",
+                  "name": "Tian Li",
+                  "photo": "",
+                  "role": "User",
+                  "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                },
+                "myRecords": Object {
+                  "1518174116204": Object {
+                    "comment": "Test",
+                    "createdTime": "1518174116204",
+                    "endDate": "2018-02-28",
+                    "location": Object {
+                      "description": "test",
+                      "geometry": Object {
+                        "location": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "viewport": Object {
+                          "northeast": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                          "southwest": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                        },
+                      },
+                      "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                    },
+                    "startDate": "2018-02-04",
+                  },
+                },
+                "navigation": Object {
+                  "goBack": [MockFunction],
+                  "state": Object {
+                    "params": Object {
+                      "role": "User",
+                      "trip": Object {
+                        "comment": "Test",
+                        "createdTime": "1518174116204",
+                        "endDate": "2018-02-28",
+                        "location": Object {
+                          "description": "test",
+                          "geometry": Object {
+                            "location": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                            "viewport": Object {
+                              "northeast": Object {
+                                "lat": 12.34,
+                                "lng": 12.34,
+                              },
+                              "southwest": Object {
+                                "lat": 12.34,
+                                "lng": 12.34,
+                              },
+                            },
+                          },
+                          "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                        },
+                        "startDate": "2018-02-02",
+                      },
+                      "user": Object {
+                        "blocked": false,
+                        "email": "litian19901120@gmail.com",
+                        "name": "Tian Li",
+                        "photo": "",
+                        "role": "User",
+                        "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                      },
+                    },
+                  },
+                },
+                "saveAllRecords": [Function],
+                "saveBlockData": [Function],
+                "saveMyRecords": [Function],
+                "saveUserPhoto": [Function],
+                "saveUserProfile": [Function],
+                "saveUsers": [Function],
+                "setFilterOption": [Function],
+                "showToast": [Function],
+                "welcome": [Function],
+              }
+            }
+            myProfile={
+              Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              }
+            }
+            myRecords={
+              Object {
+                "1518174116204": Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              }
+            }
+            onPressLeft={[Function]}
+          />
+        </SideMenu>,
+        "testID": "home",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animationFunction": [Function],
+          "animationStyle": [Function],
+          "autoClosing": true,
+          "bounceBackOnOverdraw": true,
+          "children": <Connect(UserBrowseTrip)
+            handle={
+              Object {
+                "allRecords": Array [
+                  Object {
+                    "comment": "Test",
+                    "createdTime": "1518174116204",
+                    "endDate": "2018-02-28",
+                    "location": Object {
+                      "description": "test",
+                      "geometry": Object {
+                        "location": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "viewport": Object {
+                          "northeast": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                          "southwest": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                        },
+                      },
+                      "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                    },
+                    "startDate": "2018-02-04",
+                  },
+                ],
+                "allUsers": Object {
+                  "VZx9D1IMIdT0gXCtsh2mymcXawd2": Object {
+                    "email": "litian19901120@gmail.com",
+                    "name": "Tian Li",
+                    "photo": "",
+                    "role": "User",
+                    "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                  },
+                },
+                "blockData": Object {
+                  "litian19901120@gmail%2Ecom": 2,
+                },
+                "fetchAllRecords": [Function],
+                "fetchBlockData": [Function],
+                "fetchMyRecords": [Function],
+                "fetchUsers": [Function],
+                "greeting": undefined,
+                "listenUserProfile": [Function],
+                "logout": [Function],
+                "myProfile": Object {
+                  "email": "litian19901120@gmail.com",
+                  "name": "Tian Li",
+                  "photo": "",
+                  "role": "User",
+                  "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                },
+                "myRecords": Object {
+                  "1518174116204": Object {
+                    "comment": "Test",
+                    "createdTime": "1518174116204",
+                    "endDate": "2018-02-28",
+                    "location": Object {
+                      "description": "test",
+                      "geometry": Object {
+                        "location": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "viewport": Object {
+                          "northeast": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                          "southwest": Object {
+                            "lat": "12.34",
+                            "lng": "12.34",
+                          },
+                        },
+                      },
+                      "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                    },
+                    "startDate": "2018-02-04",
+                  },
+                },
+                "navigation": Object {
+                  "goBack": [MockFunction],
+                  "state": Object {
+                    "params": Object {
+                      "role": "User",
+                      "trip": Object {
+                        "comment": "Test",
+                        "createdTime": "1518174116204",
+                        "endDate": "2018-02-28",
+                        "location": Object {
+                          "description": "test",
+                          "geometry": Object {
+                            "location": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                            "viewport": Object {
+                              "northeast": Object {
+                                "lat": 12.34,
+                                "lng": 12.34,
+                              },
+                              "southwest": Object {
+                                "lat": 12.34,
+                                "lng": 12.34,
+                              },
+                            },
+                          },
+                          "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                        },
+                        "startDate": "2018-02-02",
+                      },
+                      "user": Object {
+                        "blocked": false,
+                        "email": "litian19901120@gmail.com",
+                        "name": "Tian Li",
+                        "photo": "",
+                        "role": "User",
+                        "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                      },
+                    },
+                  },
+                },
+                "saveAllRecords": [Function],
+                "saveBlockData": [Function],
+                "saveMyRecords": [Function],
+                "saveUserPhoto": [Function],
+                "saveUserProfile": [Function],
+                "saveUsers": [Function],
+                "setFilterOption": [Function],
+                "showToast": [Function],
+                "welcome": [Function],
+              }
+            }
+            myProfile={
+              Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              }
+            }
+            myRecords={
+              Object {
+                "1518174116204": Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              }
+            }
+            onPressLeft={[Function]}
+          />,
+          "disableGestures": false,
+          "edgeHitWidth": 60,
+          "hiddenMenuOffset": 0,
+          "isOpen": false,
+          "menu": <Connect(LeftSideView)
+            onSelect={[Function]}
+            profile={
+              Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              }
+            }
+          />,
+          "menuPosition": "left",
+          "onChange": [Function],
+          "onMove": [Function],
+          "onSliding": [Function],
+          "onStartShouldSetResponderCapture": [Function],
+          "openMenuOffset": 500,
+          "toleranceX": 10,
+          "toleranceY": 10,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handle": Object {
+              "allRecords": Array [
+                Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              ],
+              "allUsers": Object {
+                "VZx9D1IMIdT0gXCtsh2mymcXawd2": Object {
+                  "email": "litian19901120@gmail.com",
+                  "name": "Tian Li",
+                  "photo": "",
+                  "role": "User",
+                  "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                },
+              },
+              "blockData": Object {
+                "litian19901120@gmail%2Ecom": 2,
+              },
+              "fetchAllRecords": [Function],
+              "fetchBlockData": [Function],
+              "fetchMyRecords": [Function],
+              "fetchUsers": [Function],
+              "greeting": undefined,
+              "listenUserProfile": [Function],
+              "logout": [Function],
+              "myProfile": Object {
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              },
+              "myRecords": Object {
+                "1518174116204": Object {
+                  "comment": "Test",
+                  "createdTime": "1518174116204",
+                  "endDate": "2018-02-28",
+                  "location": Object {
+                    "description": "test",
+                    "geometry": Object {
+                      "location": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "viewport": Object {
+                        "northeast": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                        "southwest": Object {
+                          "lat": "12.34",
+                          "lng": "12.34",
+                        },
+                      },
+                    },
+                    "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                  },
+                  "startDate": "2018-02-04",
+                },
+              },
+              "navigation": Object {
+                "goBack": [MockFunction],
+                "state": Object {
+                  "params": Object {
+                    "role": "User",
+                    "trip": Object {
+                      "comment": "Test",
+                      "createdTime": "1518174116204",
+                      "endDate": "2018-02-28",
+                      "location": Object {
+                        "description": "test",
+                        "geometry": Object {
+                          "location": Object {
+                            "lat": 12.34,
+                            "lng": 12.34,
+                          },
+                          "viewport": Object {
+                            "northeast": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                            "southwest": Object {
+                              "lat": 12.34,
+                              "lng": 12.34,
+                            },
+                          },
+                        },
+                        "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                      },
+                      "startDate": "2018-02-02",
+                    },
+                    "user": Object {
+                      "blocked": false,
+                      "email": "litian19901120@gmail.com",
+                      "name": "Tian Li",
+                      "photo": "",
+                      "role": "User",
+                      "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                    },
+                  },
+                },
+              },
+              "saveAllRecords": [Function],
+              "saveBlockData": [Function],
+              "saveMyRecords": [Function],
+              "saveUserPhoto": [Function],
+              "saveUserProfile": [Function],
+              "saveUsers": [Function],
+              "setFilterOption": [Function],
+              "showToast": [Function],
+              "welcome": [Function],
+            },
+            "myProfile": Object {
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            },
+            "myRecords": Object {
+              "1518174116204": Object {
+                "comment": "Test",
+                "createdTime": "1518174116204",
+                "endDate": "2018-02-28",
+                "location": Object {
+                  "description": "test",
+                  "geometry": Object {
+                    "location": Object {
+                      "lat": "12.34",
+                      "lng": "12.34",
+                    },
+                    "viewport": Object {
+                      "northeast": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                      "southwest": Object {
+                        "lat": "12.34",
+                        "lng": "12.34",
+                      },
+                    },
+                  },
+                  "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                },
+                "startDate": "2018-02-04",
+              },
+            },
+            "onPressLeft": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": undefined,
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

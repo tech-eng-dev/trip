@@ -1,0 +1,2080 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminBrowseTrip renders correctly renders as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AdminEditUser
+    fetchAllRecords={[Function]}
+    fetchBlockData={[Function]}
+    fetchMyRecords={[Function]}
+    fetchUsers={[Function]}
+    listenUserProfile={[Function]}
+    logout={[Function]}
+    myProfile={
+      Object {
+        "email": "litian19901120@gmail.com",
+        "name": "Tian Li",
+        "photo": "",
+        "role": "User",
+        "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+      }
+    }
+    navigation={
+      Object {
+        "goBack": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "role": "User",
+            "trip": Object {
+              "comment": "Test",
+              "createdTime": "1518174116204",
+              "endDate": "2018-02-28",
+              "location": Object {
+                "description": "test",
+                "geometry": Object {
+                  "location": Object {
+                    "lat": 12.34,
+                    "lng": 12.34,
+                  },
+                  "viewport": Object {
+                    "northeast": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                    "southwest": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                  },
+                },
+                "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+              },
+              "startDate": "2018-02-02",
+            },
+            "user": Object {
+              "blocked": false,
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            },
+          },
+        },
+      }
+    }
+    saveAllRecords={[Function]}
+    saveBlockData={[Function]}
+    saveMyRecords={[Function]}
+    saveUserPhoto={[Function]}
+    saveUserProfile={[Function]}
+    saveUsers={[Function]}
+    setFilterOption={[Function]}
+    showToast={[Function]}
+    welcome={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <CustomHeader
+          backgroundColor="#3DA0F1"
+          left="ios-arrow-back"
+          onPressLeft={[Function]}
+          onPressRight={[Function]}
+          right={undefined}
+          title="Edit User"
+        />,
+        <View
+          style={
+            Object {
+              "backgroundColor": "#F5FAFE",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#6DBF53",
+                "height": 400,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Avatar
+                blocked={false}
+                image={undefined}
+                userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                width={200}
+              />
+            </TouchableOpacity>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 120,
+                }
+              }
+            >
+              <CustomInput
+                autoCapitalize="none"
+                border={true}
+                keyboardType="default"
+                multiline={false}
+                onChange={[Function]}
+                placeholder="Username"
+                secureTextEntry={false}
+                testID="user-edit-name-input"
+                text="Tian Li"
+                width={500}
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 40,
+                  "paddingHorizontal": 120,
+                }
+              }
+            >
+              <Component
+                name="md-person"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 30,
+                    "marginRight": 20,
+                    "width": 60,
+                  }
+                }
+              />
+              <ModalDropdown
+                animated={true}
+                defaultIndex={-1}
+                defaultValue="Please select..."
+                disabled={false}
+                dropdownStyle={
+                  Object {
+                    "backgroundColor": "#6DBF53",
+                    "padding": 5,
+                    "width": 400,
+                  }
+                }
+                keyboardShouldPersistTaps="never"
+                onSelect={[Function]}
+                options={
+                  Array [
+                    "User",
+                    "Manager",
+                  ]
+                }
+                renderRow={[Function]}
+                scrollEnabled={true}
+                showsVerticalScrollIndicator={true}
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "height": 35,
+                      "width": 400,
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "flex": 1,
+                        "fontSize": 20,
+                      }
+                    }
+                  >
+                    User
+                  </Text>
+                  <Component
+                    name="md-arrow-dropdown"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginRight": 20,
+                        "width": 60,
+                      }
+                    }
+                  />
+                </View>
+              </ModalDropdown>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 40,
+                  "paddingHorizontal": 120,
+                }
+              }
+            >
+              <Component
+                name="md-mail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 30,
+                    "marginRight": 20,
+                    "width": 60,
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "flex": 1,
+                    "fontSize": 20,
+                  }
+                }
+              >
+                litian19901120@gmail.com
+              </Text>
+            </View>
+          </View>
+        </View>,
+      ],
+      "style": Object {
+        "flex": 1,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#3DA0F1",
+          "left": "ios-arrow-back",
+          "onPressLeft": [Function],
+          "onPressRight": [Function],
+          "right": undefined,
+          "title": "Edit User",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#6DBF53",
+                  "height": 400,
+                  "justifyContent": "center",
+                  "width": 750,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Avatar
+                  blocked={false}
+                  image={undefined}
+                  userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                  width={200}
+                />
+              </TouchableOpacity>
+            </View>,
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "paddingLeft": 120,
+                  }
+                }
+              >
+                <CustomInput
+                  autoCapitalize="none"
+                  border={true}
+                  keyboardType="default"
+                  multiline={false}
+                  onChange={[Function]}
+                  placeholder="Username"
+                  secureTextEntry={false}
+                  testID="user-edit-name-input"
+                  text="Tian Li"
+                  width={500}
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 40,
+                    "paddingHorizontal": 120,
+                  }
+                }
+              >
+                <Component
+                  name="md-person"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginRight": 20,
+                      "width": 60,
+                    }
+                  }
+                />
+                <ModalDropdown
+                  animated={true}
+                  defaultIndex={-1}
+                  defaultValue="Please select..."
+                  disabled={false}
+                  dropdownStyle={
+                    Object {
+                      "backgroundColor": "#6DBF53",
+                      "padding": 5,
+                      "width": 400,
+                    }
+                  }
+                  keyboardShouldPersistTaps="never"
+                  onSelect={[Function]}
+                  options={
+                    Array [
+                      "User",
+                      "Manager",
+                    ]
+                  }
+                  renderRow={[Function]}
+                  scrollEnabled={true}
+                  showsVerticalScrollIndicator={true}
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "height": 35,
+                        "width": 400,
+                      }
+                    }
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "flex": 1,
+                          "fontSize": 20,
+                        }
+                      }
+                    >
+                      User
+                    </Text>
+                    <Component
+                      name="md-arrow-dropdown"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        }
+                      }
+                    />
+                  </View>
+                </ModalDropdown>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 40,
+                    "paddingHorizontal": 120,
+                  }
+                }
+              >
+                <Component
+                  name="md-mail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginRight": 20,
+                      "width": 60,
+                    }
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "flex": 1,
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  litian19901120@gmail.com
+                </Text>
+              </View>
+            </View>,
+            null,
+          ],
+          "style": Object {
+            "backgroundColor": "#F5FAFE",
+            "flex": 1,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Avatar
+                  blocked={false}
+                  image={undefined}
+                  userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                  width={200}
+                />
+              </TouchableOpacity>,
+              "style": Object {
+                "alignItems": "center",
+                "backgroundColor": "#6DBF53",
+                "height": 400,
+                "justifyContent": "center",
+                "width": 750,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "activeOpacity": 0.2,
+                "children": <Avatar
+                  blocked={false}
+                  image={undefined}
+                  userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                  width={200}
+                />,
+                "onPress": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "blocked": false,
+                  "image": undefined,
+                  "userId": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                  "width": 200,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 120,
+                    }
+                  }
+                >
+                  <CustomInput
+                    autoCapitalize="none"
+                    border={true}
+                    keyboardType="default"
+                    multiline={false}
+                    onChange={[Function]}
+                    placeholder="Username"
+                    secureTextEntry={false}
+                    testID="user-edit-name-input"
+                    text="Tian Li"
+                    width={500}
+                  />
+                </View>,
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "marginTop": 40,
+                      "paddingHorizontal": 120,
+                    }
+                  }
+                >
+                  <Component
+                    name="md-person"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginRight": 20,
+                        "width": 60,
+                      }
+                    }
+                  />
+                  <ModalDropdown
+                    animated={true}
+                    defaultIndex={-1}
+                    defaultValue="Please select..."
+                    disabled={false}
+                    dropdownStyle={
+                      Object {
+                        "backgroundColor": "#6DBF53",
+                        "padding": 5,
+                        "width": 400,
+                      }
+                    }
+                    keyboardShouldPersistTaps="never"
+                    onSelect={[Function]}
+                    options={
+                      Array [
+                        "User",
+                        "Manager",
+                      ]
+                    }
+                    renderRow={[Function]}
+                    scrollEnabled={true}
+                    showsVerticalScrollIndicator={true}
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "height": 35,
+                          "width": 400,
+                        }
+                      }
+                    >
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#5C6063",
+                            "flex": 1,
+                            "fontSize": 20,
+                          }
+                        }
+                      >
+                        User
+                      </Text>
+                      <Component
+                        name="md-arrow-dropdown"
+                        style={
+                          Object {
+                            "color": "#5C6063",
+                            "fontSize": 30,
+                            "marginRight": 20,
+                            "width": 60,
+                          }
+                        }
+                      />
+                    </View>
+                  </ModalDropdown>
+                </View>,
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "marginTop": 40,
+                      "paddingHorizontal": 120,
+                    }
+                  }
+                >
+                  <Component
+                    name="md-mail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginRight": 20,
+                        "width": 60,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "flex": 1,
+                        "fontSize": 20,
+                      }
+                    }
+                  >
+                    litian19901120@gmail.com
+                  </Text>
+                </View>,
+              ],
+              "style": Object {
+                "flex": 1,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <CustomInput
+                    autoCapitalize="none"
+                    border={true}
+                    keyboardType="default"
+                    multiline={false}
+                    onChange={[Function]}
+                    placeholder="Username"
+                    secureTextEntry={false}
+                    testID="user-edit-name-input"
+                    text="Tian Li"
+                    width={500}
+                  />,
+                  "style": Object {
+                    "paddingLeft": 120,
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "autoCapitalize": "none",
+                    "border": true,
+                    "keyboardType": "default",
+                    "multiline": false,
+                    "onChange": [Function],
+                    "placeholder": "Username",
+                    "secureTextEntry": false,
+                    "testID": "user-edit-name-input",
+                    "text": "Tian Li",
+                    "width": 500,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Component
+                      name="md-person"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        }
+                      }
+                    />,
+                    <ModalDropdown
+                      animated={true}
+                      defaultIndex={-1}
+                      defaultValue="Please select..."
+                      disabled={false}
+                      dropdownStyle={
+                        Object {
+                          "backgroundColor": "#6DBF53",
+                          "padding": 5,
+                          "width": 400,
+                        }
+                      }
+                      keyboardShouldPersistTaps="never"
+                      onSelect={[Function]}
+                      options={
+                        Array [
+                          "User",
+                          "Manager",
+                        ]
+                      }
+                      renderRow={[Function]}
+                      scrollEnabled={true}
+                      showsVerticalScrollIndicator={true}
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "height": 35,
+                            "width": 400,
+                          }
+                        }
+                      >
+                        <Text
+                          accessible={true}
+                          allowFontScaling={true}
+                          ellipsizeMode="tail"
+                          style={
+                            Object {
+                              "color": "#5C6063",
+                              "flex": 1,
+                              "fontSize": 20,
+                            }
+                          }
+                        >
+                          User
+                        </Text>
+                        <Component
+                          name="md-arrow-dropdown"
+                          style={
+                            Object {
+                              "color": "#5C6063",
+                              "fontSize": 30,
+                              "marginRight": 20,
+                              "width": 60,
+                            }
+                          }
+                        />
+                      </View>
+                    </ModalDropdown>,
+                  ],
+                  "style": Object {
+                    "flexDirection": "row",
+                    "marginTop": 40,
+                    "paddingHorizontal": 120,
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "name": "md-person",
+                      "style": Object {
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginRight": 20,
+                        "width": 60,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "Component",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "animated": true,
+                      "children": <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "height": 35,
+                            "width": 400,
+                          }
+                        }
+                      >
+                        <Text
+                          accessible={true}
+                          allowFontScaling={true}
+                          ellipsizeMode="tail"
+                          style={
+                            Object {
+                              "color": "#5C6063",
+                              "flex": 1,
+                              "fontSize": 20,
+                            }
+                          }
+                        >
+                          User
+                        </Text>
+                        <Component
+                          name="md-arrow-dropdown"
+                          style={
+                            Object {
+                              "color": "#5C6063",
+                              "fontSize": 30,
+                              "marginRight": 20,
+                              "width": 60,
+                            }
+                          }
+                        />
+                      </View>,
+                      "defaultIndex": -1,
+                      "defaultValue": "Please select...",
+                      "disabled": false,
+                      "dropdownStyle": Object {
+                        "backgroundColor": "#6DBF53",
+                        "padding": 5,
+                        "width": 400,
+                      },
+                      "keyboardShouldPersistTaps": "never",
+                      "onSelect": [Function],
+                      "options": Array [
+                        "User",
+                        "Manager",
+                      ],
+                      "renderRow": [Function],
+                      "scrollEnabled": true,
+                      "showsVerticalScrollIndicator": true,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <Text
+                            accessible={true}
+                            allowFontScaling={true}
+                            ellipsizeMode="tail"
+                            style={
+                              Object {
+                                "color": "#5C6063",
+                                "flex": 1,
+                                "fontSize": 20,
+                              }
+                            }
+                          >
+                            User
+                          </Text>,
+                          <Component
+                            name="md-arrow-dropdown"
+                            style={
+                              Object {
+                                "color": "#5C6063",
+                                "fontSize": 30,
+                                "marginRight": 20,
+                                "width": 60,
+                              }
+                            }
+                          />,
+                        ],
+                        "style": Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "height": 35,
+                          "width": 400,
+                        },
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "accessible": true,
+                            "allowFontScaling": true,
+                            "children": "User",
+                            "ellipsizeMode": "tail",
+                            "style": Object {
+                              "color": "#5C6063",
+                              "flex": 1,
+                              "fontSize": 20,
+                            },
+                          },
+                          "ref": null,
+                          "rendered": "User",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "name": "md-arrow-dropdown",
+                            "style": Object {
+                              "color": "#5C6063",
+                              "fontSize": 30,
+                              "marginRight": 20,
+                              "width": 60,
+                            },
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "Component",
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Component
+                      name="md-mail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        }
+                      }
+                    />,
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "flex": 1,
+                          "fontSize": 20,
+                        }
+                      }
+                    >
+                      litian19901120@gmail.com
+                    </Text>,
+                  ],
+                  "style": Object {
+                    "flexDirection": "row",
+                    "marginTop": 40,
+                    "paddingHorizontal": 120,
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "name": "md-mail",
+                      "style": Object {
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginRight": 20,
+                        "width": 60,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "Component",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "accessible": true,
+                      "allowFontScaling": true,
+                      "children": "litian19901120@gmail.com",
+                      "ellipsizeMode": "tail",
+                      "style": Object {
+                        "color": "#5C6063",
+                        "flex": 1,
+                        "fontSize": 20,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "litian19901120@gmail.com",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <CustomHeader
+            backgroundColor="#3DA0F1"
+            left="ios-arrow-back"
+            onPressLeft={[Function]}
+            onPressRight={[Function]}
+            right={undefined}
+            title="Edit User"
+          />,
+          <View
+            style={
+              Object {
+                "backgroundColor": "#F5FAFE",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#6DBF53",
+                  "height": 400,
+                  "justifyContent": "center",
+                  "width": 750,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Avatar
+                  blocked={false}
+                  image={undefined}
+                  userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                  width={200}
+                />
+              </TouchableOpacity>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "paddingLeft": 120,
+                  }
+                }
+              >
+                <CustomInput
+                  autoCapitalize="none"
+                  border={true}
+                  keyboardType="default"
+                  multiline={false}
+                  onChange={[Function]}
+                  placeholder="Username"
+                  secureTextEntry={false}
+                  testID="user-edit-name-input"
+                  text="Tian Li"
+                  width={500}
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 40,
+                    "paddingHorizontal": 120,
+                  }
+                }
+              >
+                <Component
+                  name="md-person"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginRight": 20,
+                      "width": 60,
+                    }
+                  }
+                />
+                <ModalDropdown
+                  animated={true}
+                  defaultIndex={-1}
+                  defaultValue="Please select..."
+                  disabled={false}
+                  dropdownStyle={
+                    Object {
+                      "backgroundColor": "#6DBF53",
+                      "padding": 5,
+                      "width": 400,
+                    }
+                  }
+                  keyboardShouldPersistTaps="never"
+                  onSelect={[Function]}
+                  options={
+                    Array [
+                      "User",
+                      "Manager",
+                    ]
+                  }
+                  renderRow={[Function]}
+                  scrollEnabled={true}
+                  showsVerticalScrollIndicator={true}
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "height": 35,
+                        "width": 400,
+                      }
+                    }
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "flex": 1,
+                          "fontSize": 20,
+                        }
+                      }
+                    >
+                      User
+                    </Text>
+                    <Component
+                      name="md-arrow-dropdown"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        }
+                      }
+                    />
+                  </View>
+                </ModalDropdown>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 40,
+                    "paddingHorizontal": 120,
+                  }
+                }
+              >
+                <Component
+                  name="md-mail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginRight": 20,
+                      "width": 60,
+                    }
+                  }
+                />
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "flex": 1,
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  litian19901120@gmail.com
+                </Text>
+              </View>
+            </View>
+          </View>,
+        ],
+        "style": Object {
+          "flex": 1,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundColor": "#3DA0F1",
+            "left": "ios-arrow-back",
+            "onPressLeft": [Function],
+            "onPressRight": [Function],
+            "right": undefined,
+            "title": "Edit User",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#6DBF53",
+                    "height": 400,
+                    "justifyContent": "center",
+                    "width": 750,
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                >
+                  <Avatar
+                    blocked={false}
+                    image={undefined}
+                    userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                    width={200}
+                  />
+                </TouchableOpacity>
+              </View>,
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 120,
+                    }
+                  }
+                >
+                  <CustomInput
+                    autoCapitalize="none"
+                    border={true}
+                    keyboardType="default"
+                    multiline={false}
+                    onChange={[Function]}
+                    placeholder="Username"
+                    secureTextEntry={false}
+                    testID="user-edit-name-input"
+                    text="Tian Li"
+                    width={500}
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "marginTop": 40,
+                      "paddingHorizontal": 120,
+                    }
+                  }
+                >
+                  <Component
+                    name="md-person"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginRight": 20,
+                        "width": 60,
+                      }
+                    }
+                  />
+                  <ModalDropdown
+                    animated={true}
+                    defaultIndex={-1}
+                    defaultValue="Please select..."
+                    disabled={false}
+                    dropdownStyle={
+                      Object {
+                        "backgroundColor": "#6DBF53",
+                        "padding": 5,
+                        "width": 400,
+                      }
+                    }
+                    keyboardShouldPersistTaps="never"
+                    onSelect={[Function]}
+                    options={
+                      Array [
+                        "User",
+                        "Manager",
+                      ]
+                    }
+                    renderRow={[Function]}
+                    scrollEnabled={true}
+                    showsVerticalScrollIndicator={true}
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "height": 35,
+                          "width": 400,
+                        }
+                      }
+                    >
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#5C6063",
+                            "flex": 1,
+                            "fontSize": 20,
+                          }
+                        }
+                      >
+                        User
+                      </Text>
+                      <Component
+                        name="md-arrow-dropdown"
+                        style={
+                          Object {
+                            "color": "#5C6063",
+                            "fontSize": 30,
+                            "marginRight": 20,
+                            "width": 60,
+                          }
+                        }
+                      />
+                    </View>
+                  </ModalDropdown>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "marginTop": 40,
+                      "paddingHorizontal": 120,
+                    }
+                  }
+                >
+                  <Component
+                    name="md-mail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginRight": 20,
+                        "width": 60,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "flex": 1,
+                        "fontSize": 20,
+                      }
+                    }
+                  >
+                    litian19901120@gmail.com
+                  </Text>
+                </View>
+              </View>,
+              null,
+            ],
+            "style": Object {
+              "backgroundColor": "#F5FAFE",
+              "flex": 1,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                >
+                  <Avatar
+                    blocked={false}
+                    image={undefined}
+                    userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                    width={200}
+                  />
+                </TouchableOpacity>,
+                "style": Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#6DBF53",
+                  "height": 400,
+                  "justifyContent": "center",
+                  "width": 750,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "activeOpacity": 0.2,
+                  "children": <Avatar
+                    blocked={false}
+                    image={undefined}
+                    userId="VZx9D1IMIdT0gXCtsh2mymcXawd2"
+                    width={200}
+                  />,
+                  "onPress": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "blocked": false,
+                    "image": undefined,
+                    "userId": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+                    "width": 200,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <View
+                    style={
+                      Object {
+                        "paddingLeft": 120,
+                      }
+                    }
+                  >
+                    <CustomInput
+                      autoCapitalize="none"
+                      border={true}
+                      keyboardType="default"
+                      multiline={false}
+                      onChange={[Function]}
+                      placeholder="Username"
+                      secureTextEntry={false}
+                      testID="user-edit-name-input"
+                      text="Tian Li"
+                      width={500}
+                    />
+                  </View>,
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 40,
+                        "paddingHorizontal": 120,
+                      }
+                    }
+                  >
+                    <Component
+                      name="md-person"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        }
+                      }
+                    />
+                    <ModalDropdown
+                      animated={true}
+                      defaultIndex={-1}
+                      defaultValue="Please select..."
+                      disabled={false}
+                      dropdownStyle={
+                        Object {
+                          "backgroundColor": "#6DBF53",
+                          "padding": 5,
+                          "width": 400,
+                        }
+                      }
+                      keyboardShouldPersistTaps="never"
+                      onSelect={[Function]}
+                      options={
+                        Array [
+                          "User",
+                          "Manager",
+                        ]
+                      }
+                      renderRow={[Function]}
+                      scrollEnabled={true}
+                      showsVerticalScrollIndicator={true}
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "height": 35,
+                            "width": 400,
+                          }
+                        }
+                      >
+                        <Text
+                          accessible={true}
+                          allowFontScaling={true}
+                          ellipsizeMode="tail"
+                          style={
+                            Object {
+                              "color": "#5C6063",
+                              "flex": 1,
+                              "fontSize": 20,
+                            }
+                          }
+                        >
+                          User
+                        </Text>
+                        <Component
+                          name="md-arrow-dropdown"
+                          style={
+                            Object {
+                              "color": "#5C6063",
+                              "fontSize": 30,
+                              "marginRight": 20,
+                              "width": 60,
+                            }
+                          }
+                        />
+                      </View>
+                    </ModalDropdown>
+                  </View>,
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 40,
+                        "paddingHorizontal": 120,
+                      }
+                    }
+                  >
+                    <Component
+                      name="md-mail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        }
+                      }
+                    />
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "flex": 1,
+                          "fontSize": 20,
+                        }
+                      }
+                    >
+                      litian19901120@gmail.com
+                    </Text>
+                  </View>,
+                ],
+                "style": Object {
+                  "flex": 1,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <CustomInput
+                      autoCapitalize="none"
+                      border={true}
+                      keyboardType="default"
+                      multiline={false}
+                      onChange={[Function]}
+                      placeholder="Username"
+                      secureTextEntry={false}
+                      testID="user-edit-name-input"
+                      text="Tian Li"
+                      width={500}
+                    />,
+                    "style": Object {
+                      "paddingLeft": 120,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "autoCapitalize": "none",
+                      "border": true,
+                      "keyboardType": "default",
+                      "multiline": false,
+                      "onChange": [Function],
+                      "placeholder": "Username",
+                      "secureTextEntry": false,
+                      "testID": "user-edit-name-input",
+                      "text": "Tian Li",
+                      "width": 500,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <Component
+                        name="md-person"
+                        style={
+                          Object {
+                            "color": "#5C6063",
+                            "fontSize": 30,
+                            "marginRight": 20,
+                            "width": 60,
+                          }
+                        }
+                      />,
+                      <ModalDropdown
+                        animated={true}
+                        defaultIndex={-1}
+                        defaultValue="Please select..."
+                        disabled={false}
+                        dropdownStyle={
+                          Object {
+                            "backgroundColor": "#6DBF53",
+                            "padding": 5,
+                            "width": 400,
+                          }
+                        }
+                        keyboardShouldPersistTaps="never"
+                        onSelect={[Function]}
+                        options={
+                          Array [
+                            "User",
+                            "Manager",
+                          ]
+                        }
+                        renderRow={[Function]}
+                        scrollEnabled={true}
+                        showsVerticalScrollIndicator={true}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "height": 35,
+                              "width": 400,
+                            }
+                          }
+                        >
+                          <Text
+                            accessible={true}
+                            allowFontScaling={true}
+                            ellipsizeMode="tail"
+                            style={
+                              Object {
+                                "color": "#5C6063",
+                                "flex": 1,
+                                "fontSize": 20,
+                              }
+                            }
+                          >
+                            User
+                          </Text>
+                          <Component
+                            name="md-arrow-dropdown"
+                            style={
+                              Object {
+                                "color": "#5C6063",
+                                "fontSize": 30,
+                                "marginRight": 20,
+                                "width": 60,
+                              }
+                            }
+                          />
+                        </View>
+                      </ModalDropdown>,
+                    ],
+                    "style": Object {
+                      "flexDirection": "row",
+                      "marginTop": 40,
+                      "paddingHorizontal": 120,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "md-person",
+                        "style": Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "Component",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "animated": true,
+                        "children": <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "height": 35,
+                              "width": 400,
+                            }
+                          }
+                        >
+                          <Text
+                            accessible={true}
+                            allowFontScaling={true}
+                            ellipsizeMode="tail"
+                            style={
+                              Object {
+                                "color": "#5C6063",
+                                "flex": 1,
+                                "fontSize": 20,
+                              }
+                            }
+                          >
+                            User
+                          </Text>
+                          <Component
+                            name="md-arrow-dropdown"
+                            style={
+                              Object {
+                                "color": "#5C6063",
+                                "fontSize": 30,
+                                "marginRight": 20,
+                                "width": 60,
+                              }
+                            }
+                          />
+                        </View>,
+                        "defaultIndex": -1,
+                        "defaultValue": "Please select...",
+                        "disabled": false,
+                        "dropdownStyle": Object {
+                          "backgroundColor": "#6DBF53",
+                          "padding": 5,
+                          "width": 400,
+                        },
+                        "keyboardShouldPersistTaps": "never",
+                        "onSelect": [Function],
+                        "options": Array [
+                          "User",
+                          "Manager",
+                        ],
+                        "renderRow": [Function],
+                        "scrollEnabled": true,
+                        "showsVerticalScrollIndicator": true,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": Array [
+                            <Text
+                              accessible={true}
+                              allowFontScaling={true}
+                              ellipsizeMode="tail"
+                              style={
+                                Object {
+                                  "color": "#5C6063",
+                                  "flex": 1,
+                                  "fontSize": 20,
+                                }
+                              }
+                            >
+                              User
+                            </Text>,
+                            <Component
+                              name="md-arrow-dropdown"
+                              style={
+                                Object {
+                                  "color": "#5C6063",
+                                  "fontSize": 30,
+                                  "marginRight": 20,
+                                  "width": 60,
+                                }
+                              }
+                            />,
+                          ],
+                          "style": Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "height": 35,
+                            "width": 400,
+                          },
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "accessible": true,
+                              "allowFontScaling": true,
+                              "children": "User",
+                              "ellipsizeMode": "tail",
+                              "style": Object {
+                                "color": "#5C6063",
+                                "flex": 1,
+                                "fontSize": 20,
+                              },
+                            },
+                            "ref": null,
+                            "rendered": "User",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "name": "md-arrow-dropdown",
+                              "style": Object {
+                                "color": "#5C6063",
+                                "fontSize": 30,
+                                "marginRight": 20,
+                                "width": 60,
+                              },
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "Component",
+                          },
+                        ],
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <Component
+                        name="md-mail"
+                        style={
+                          Object {
+                            "color": "#5C6063",
+                            "fontSize": 30,
+                            "marginRight": 20,
+                            "width": 60,
+                          }
+                        }
+                      />,
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#5C6063",
+                            "flex": 1,
+                            "fontSize": 20,
+                          }
+                        }
+                      >
+                        litian19901120@gmail.com
+                      </Text>,
+                    ],
+                    "style": Object {
+                      "flexDirection": "row",
+                      "marginTop": 40,
+                      "paddingHorizontal": 120,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "md-mail",
+                        "style": Object {
+                          "color": "#5C6063",
+                          "fontSize": 30,
+                          "marginRight": 20,
+                          "width": 60,
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "Component",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "accessible": true,
+                        "allowFontScaling": true,
+                        "children": "litian19901120@gmail.com",
+                        "ellipsizeMode": "tail",
+                        "style": Object {
+                          "color": "#5C6063",
+                          "flex": 1,
+                          "fontSize": 20,
+                        },
+                      },
+                      "ref": null,
+                      "rendered": "litian19901120@gmail.com",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

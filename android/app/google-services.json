@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "327109997105",
+    "firebase_url": "https://trip-b003c.firebaseio.com",
+    "project_id": "trip-b003c",
+    "storage_bucket": "trip-b003c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327109997105:android:c6e471608e9f4307",
+        "android_client_info": {
+          "package_name": "com.trip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327109997105-k3fd1cvs61efq3pbk8mdjk2dr702t99e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trip",
+            "certificate_hash": "a0cb3fdb35d86faecae2b41a6519f998e653bcf1"
+          }
+        },
+        {
+          "client_id": "327109997105-8c3cgmbfemljktsi2qj43095ob29qgm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trip",
+            "certificate_hash": "cb6ae3054ee81080074a7983a55e442ae2c920f0"
+          }
+        },
+        {
+          "client_id": "327109997105-8e97q29rgpfkeuj8i0c0bp93injrchs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGsREAQ4Q3UzBT3nKvHXhmGkW4WJU3tfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327109997105-t0rv3lou4mjr28ciejhr1i8s0je63t7r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.toptal.trip"
+              }
+            },
+            {
+              "client_id": "327109997105-8e97q29rgpfkeuj8i0c0bp93injrchs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

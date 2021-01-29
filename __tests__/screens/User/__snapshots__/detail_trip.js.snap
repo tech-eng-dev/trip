@@ -1,0 +1,2188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTripDetail component renders correctly renders as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserTripDetail
+    fetchAllRecords={[Function]}
+    fetchBlockData={[Function]}
+    fetchMyRecords={[Function]}
+    fetchUsers={[Function]}
+    listenUserProfile={[Function]}
+    logout={[Function]}
+    myProfile={
+      Object {
+        "email": "litian19901120@gmail.com",
+        "name": "Tian Li",
+        "photo": "",
+        "role": "User",
+        "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+      }
+    }
+    navigation={
+      Object {
+        "goBack": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "role": "User",
+            "trip": Object {
+              "comment": "Test",
+              "createdTime": "1518174116204",
+              "endDate": "2018-02-28",
+              "location": Object {
+                "description": "test",
+                "geometry": Object {
+                  "location": Object {
+                    "lat": 12.34,
+                    "lng": 12.34,
+                  },
+                  "viewport": Object {
+                    "northeast": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                    "southwest": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                  },
+                },
+                "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+              },
+              "startDate": "2018-02-02",
+            },
+            "user": Object {
+              "blocked": false,
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            },
+          },
+        },
+      }
+    }
+    saveAllRecords={[Function]}
+    saveBlockData={[Function]}
+    saveMyRecords={[Function]}
+    saveUserPhoto={[Function]}
+    saveUserProfile={[Function]}
+    saveUsers={[Function]}
+    setFilterOption={[Function]}
+    showToast={[Function]}
+    welcome={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <CustomHeader
+          backgroundColor="#3DA0F1"
+          left="ios-arrow-back"
+          onPressLeft={[Function]}
+          onPressRight={[Function]}
+          right={undefined}
+          title="Trip Details"
+        />,
+        <UNDEFINED
+          contentContainerStyle={
+            Object {
+              "paddingBottom": 40,
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 400,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#5C6063",
+                  "fontSize": 40,
+                }
+              }
+              testID="trip-state"
+            >
+              On Trip
+            </Text>
+          </View>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 14,
+                "width": 260,
+              }
+            }
+          >
+            Destination:
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#5C6063",
+                  "fontSize": 18,
+                  "width": 400,
+                },
+                Object {
+                  "width": null,
+                },
+              ]
+            }
+          >
+            test
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 400,
+                "marginVertical": 20,
+                "width": 670,
+              }
+            }
+          >
+            <MapView
+              initialRegion={
+                Object {
+                  "latitude": 12.34,
+                  "latitudeDelta": 0.04,
+                  "longitude": 12.34,
+                  "longitudeDelta": 0.04,
+                }
+              }
+              loadingEnabled={true}
+              showsMyLocationButton={true}
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <MapMarker
+                coordinate={
+                  Object {
+                    "latitude": 12.34,
+                    "longitude": 12.34,
+                  }
+                }
+                description="test"
+                onPress={[Function]}
+                title="Destination"
+              >
+                <View>
+                  <Component
+                    name="md-pin"
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#EF473A",
+                        "fontSize": 26,
+                      }
+                    }
+                  />
+                </View>
+              </MapMarker>
+            </MapView>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 25,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "black",
+                  "fontSize": 14,
+                  "width": 260,
+                }
+              }
+            >
+              Start Date:
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#5C6063",
+                  "fontSize": 18,
+                  "width": 400,
+                }
+              }
+            >
+              2018-02-02
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 25,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "black",
+                  "fontSize": 14,
+                  "width": 260,
+                }
+              }
+            >
+              End Date:
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#5C6063",
+                  "fontSize": 18,
+                  "width": 400,
+                }
+              }
+            >
+              2018-02-28
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 25,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "black",
+                  "fontSize": 14,
+                  "width": 260,
+                }
+              }
+            >
+              Comment:
+            </Text>
+            <View>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  }
+                }
+              >
+                Test
+              </Text>
+            </View>
+          </View>
+        </UNDEFINED>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#3DA0F1",
+          "left": "ios-arrow-back",
+          "onPressLeft": [Function],
+          "onPressRight": [Function],
+          "right": undefined,
+          "title": "Trip Details",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            null,
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 400,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 40,
+                  }
+                }
+                testID="trip-state"
+              >
+                On Trip
+              </Text>
+            </View>,
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "black",
+                  "fontSize": 14,
+                  "width": 260,
+                }
+              }
+            >
+              Destination:
+            </Text>,
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  },
+                  Object {
+                    "width": null,
+                  },
+                ]
+              }
+            >
+              test
+            </Text>,
+            <View
+              style={
+                Object {
+                  "height": 400,
+                  "marginVertical": 20,
+                  "width": 670,
+                }
+              }
+            >
+              <MapView
+                initialRegion={
+                  Object {
+                    "latitude": 12.34,
+                    "latitudeDelta": 0.04,
+                    "longitude": 12.34,
+                    "longitudeDelta": 0.04,
+                  }
+                }
+                loadingEnabled={true}
+                showsMyLocationButton={true}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <MapMarker
+                  coordinate={
+                    Object {
+                      "latitude": 12.34,
+                      "longitude": 12.34,
+                    }
+                  }
+                  description="test"
+                  onPress={[Function]}
+                  title="Destination"
+                >
+                  <View>
+                    <Component
+                      name="md-pin"
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#EF473A",
+                          "fontSize": 26,
+                        }
+                      }
+                    />
+                  </View>
+                </MapMarker>
+              </MapView>
+            </View>,
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  }
+                }
+              >
+                Start Date:
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  }
+                }
+              >
+                2018-02-02
+              </Text>
+            </View>,
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  }
+                }
+              >
+                End Date:
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  }
+                }
+              >
+                2018-02-28
+              </Text>
+            </View>,
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  }
+                }
+              >
+                Comment:
+              </Text>
+              <View>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    }
+                  }
+                >
+                  Test
+                </Text>
+              </View>
+            </View>,
+          ],
+          "contentContainerStyle": Object {
+            "paddingBottom": 40,
+            "paddingHorizontal": 20,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                null,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 40,
+                    }
+                  }
+                  testID="trip-state"
+                >
+                  On Trip
+                </Text>,
+              ],
+              "style": Object {
+                "alignItems": "center",
+                "height": 400,
+                "justifyContent": "center",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "On Trip",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "#5C6063",
+                    "fontSize": 40,
+                  },
+                  "testID": "trip-state",
+                },
+                "ref": null,
+                "rendered": "On Trip",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "accessible": true,
+              "allowFontScaling": true,
+              "children": "Destination:",
+              "ellipsizeMode": "tail",
+              "style": Object {
+                "color": "black",
+                "fontSize": 14,
+                "width": 260,
+              },
+            },
+            "ref": null,
+            "rendered": "Destination:",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "accessible": true,
+              "allowFontScaling": true,
+              "children": "test",
+              "ellipsizeMode": "tail",
+              "style": Array [
+                Object {
+                  "color": "#5C6063",
+                  "fontSize": 18,
+                  "width": 400,
+                },
+                Object {
+                  "width": null,
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": "test",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <MapView
+                initialRegion={
+                  Object {
+                    "latitude": 12.34,
+                    "latitudeDelta": 0.04,
+                    "longitude": 12.34,
+                    "longitudeDelta": 0.04,
+                  }
+                }
+                loadingEnabled={true}
+                showsMyLocationButton={true}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <MapMarker
+                  coordinate={
+                    Object {
+                      "latitude": 12.34,
+                      "longitude": 12.34,
+                    }
+                  }
+                  description="test"
+                  onPress={[Function]}
+                  title="Destination"
+                >
+                  <View>
+                    <Component
+                      name="md-pin"
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#EF473A",
+                          "fontSize": 26,
+                        }
+                      }
+                    />
+                  </View>
+                </MapMarker>
+              </MapView>,
+              "style": Object {
+                "height": 400,
+                "marginVertical": 20,
+                "width": 670,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <MapMarker
+                  coordinate={
+                    Object {
+                      "latitude": 12.34,
+                      "longitude": 12.34,
+                    }
+                  }
+                  description="test"
+                  onPress={[Function]}
+                  title="Destination"
+                >
+                  <View>
+                    <Component
+                      name="md-pin"
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#EF473A",
+                          "fontSize": 26,
+                        }
+                      }
+                    />
+                  </View>
+                </MapMarker>,
+                "initialRegion": Object {
+                  "latitude": 12.34,
+                  "latitudeDelta": 0.04,
+                  "longitude": 12.34,
+                  "longitudeDelta": 0.04,
+                },
+                "loadingEnabled": true,
+                "showsMyLocationButton": true,
+                "style": Object {
+                  "flex": 1,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <View>
+                    <Component
+                      name="md-pin"
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#EF473A",
+                          "fontSize": 26,
+                        }
+                      }
+                    />
+                  </View>,
+                  "coordinate": Object {
+                    "latitude": 12.34,
+                    "longitude": 12.34,
+                  },
+                  "description": "test",
+                  "onPress": [Function],
+                  "title": "Destination",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Component
+                      name="md-pin"
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#EF473A",
+                          "fontSize": 26,
+                        }
+                      }
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "name": "md-pin",
+                      "style": Object {
+                        "backgroundColor": "transparent",
+                        "color": "#EF473A",
+                        "fontSize": 26,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "Component",
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    }
+                  }
+                >
+                  Start Date:
+                </Text>,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    }
+                  }
+                >
+                  2018-02-02
+                </Text>,
+              ],
+              "style": Object {
+                "flexDirection": "row",
+                "marginBottom": 25,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Start Date:",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  },
+                },
+                "ref": null,
+                "rendered": "Start Date:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "2018-02-02",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  },
+                },
+                "ref": null,
+                "rendered": "2018-02-02",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    }
+                  }
+                >
+                  End Date:
+                </Text>,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    }
+                  }
+                >
+                  2018-02-28
+                </Text>,
+              ],
+              "style": Object {
+                "flexDirection": "row",
+                "marginBottom": 25,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "End Date:",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  },
+                },
+                "ref": null,
+                "rendered": "End Date:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "2018-02-28",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  },
+                },
+                "ref": null,
+                "rendered": "2018-02-28",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    }
+                  }
+                >
+                  Comment:
+                </Text>,
+                <View>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 18,
+                        "width": 400,
+                      }
+                    }
+                  >
+                    Test
+                  </Text>
+                </View>,
+              ],
+              "style": Object {
+                "flexDirection": "row",
+                "marginBottom": 25,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Comment:",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  },
+                },
+                "ref": null,
+                "rendered": "Comment:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 18,
+                        "width": 400,
+                      }
+                    }
+                  >
+                    Test
+                  </Text>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "Test",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Test",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": undefined,
+      },
+    ],
+    "type": undefined,
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <CustomHeader
+            backgroundColor="#3DA0F1"
+            left="ios-arrow-back"
+            onPressLeft={[Function]}
+            onPressRight={[Function]}
+            right={undefined}
+            title="Trip Details"
+          />,
+          <UNDEFINED
+            contentContainerStyle={
+              Object {
+                "paddingBottom": 40,
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 400,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 40,
+                  }
+                }
+                testID="trip-state"
+              >
+                On Trip
+              </Text>
+            </View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "black",
+                  "fontSize": 14,
+                  "width": 260,
+                }
+              }
+            >
+              Destination:
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  },
+                  Object {
+                    "width": null,
+                  },
+                ]
+              }
+            >
+              test
+            </Text>
+            <View
+              style={
+                Object {
+                  "height": 400,
+                  "marginVertical": 20,
+                  "width": 670,
+                }
+              }
+            >
+              <MapView
+                initialRegion={
+                  Object {
+                    "latitude": 12.34,
+                    "latitudeDelta": 0.04,
+                    "longitude": 12.34,
+                    "longitudeDelta": 0.04,
+                  }
+                }
+                loadingEnabled={true}
+                showsMyLocationButton={true}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <MapMarker
+                  coordinate={
+                    Object {
+                      "latitude": 12.34,
+                      "longitude": 12.34,
+                    }
+                  }
+                  description="test"
+                  onPress={[Function]}
+                  title="Destination"
+                >
+                  <View>
+                    <Component
+                      name="md-pin"
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#EF473A",
+                          "fontSize": 26,
+                        }
+                      }
+                    />
+                  </View>
+                </MapMarker>
+              </MapView>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  }
+                }
+              >
+                Start Date:
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  }
+                }
+              >
+                2018-02-02
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  }
+                }
+              >
+                End Date:
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  }
+                }
+              >
+                2018-02-28
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  }
+                }
+              >
+                Comment:
+              </Text>
+              <View>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    }
+                  }
+                >
+                  Test
+                </Text>
+              </View>
+            </View>
+          </UNDEFINED>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundColor": "#3DA0F1",
+            "left": "ios-arrow-back",
+            "onPressLeft": [Function],
+            "onPressRight": [Function],
+            "right": undefined,
+            "title": "Trip Details",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              null,
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 400,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 40,
+                    }
+                  }
+                  testID="trip-state"
+                >
+                  On Trip
+                </Text>
+              </View>,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "black",
+                    "fontSize": 14,
+                    "width": 260,
+                  }
+                }
+              >
+                Destination:
+              </Text>,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    },
+                    Object {
+                      "width": null,
+                    },
+                  ]
+                }
+              >
+                test
+              </Text>,
+              <View
+                style={
+                  Object {
+                    "height": 400,
+                    "marginVertical": 20,
+                    "width": 670,
+                  }
+                }
+              >
+                <MapView
+                  initialRegion={
+                    Object {
+                      "latitude": 12.34,
+                      "latitudeDelta": 0.04,
+                      "longitude": 12.34,
+                      "longitudeDelta": 0.04,
+                    }
+                  }
+                  loadingEnabled={true}
+                  showsMyLocationButton={true}
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <MapMarker
+                    coordinate={
+                      Object {
+                        "latitude": 12.34,
+                        "longitude": 12.34,
+                      }
+                    }
+                    description="test"
+                    onPress={[Function]}
+                    title="Destination"
+                  >
+                    <View>
+                      <Component
+                        name="md-pin"
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "color": "#EF473A",
+                            "fontSize": 26,
+                          }
+                        }
+                      />
+                    </View>
+                  </MapMarker>
+                </MapView>
+              </View>,
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 25,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    }
+                  }
+                >
+                  Start Date:
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    }
+                  }
+                >
+                  2018-02-02
+                </Text>
+              </View>,
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 25,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    }
+                  }
+                >
+                  End Date:
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    }
+                  }
+                >
+                  2018-02-28
+                </Text>
+              </View>,
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 25,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    }
+                  }
+                >
+                  Comment:
+                </Text>
+                <View>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 18,
+                        "width": 400,
+                      }
+                    }
+                  >
+                    Test
+                  </Text>
+                </View>
+              </View>,
+            ],
+            "contentContainerStyle": Object {
+              "paddingBottom": 40,
+              "paddingHorizontal": 20,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  null,
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 40,
+                      }
+                    }
+                    testID="trip-state"
+                  >
+                    On Trip
+                  </Text>,
+                ],
+                "style": Object {
+                  "alignItems": "center",
+                  "height": 400,
+                  "justifyContent": "center",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "On Trip",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "#5C6063",
+                      "fontSize": 40,
+                    },
+                    "testID": "trip-state",
+                  },
+                  "ref": null,
+                  "rendered": "On Trip",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Destination:",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "color": "black",
+                  "fontSize": 14,
+                  "width": 260,
+                },
+              },
+              "ref": null,
+              "rendered": "Destination:",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "test",
+                "ellipsizeMode": "tail",
+                "style": Array [
+                  Object {
+                    "color": "#5C6063",
+                    "fontSize": 18,
+                    "width": 400,
+                  },
+                  Object {
+                    "width": null,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": "test",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <MapView
+                  initialRegion={
+                    Object {
+                      "latitude": 12.34,
+                      "latitudeDelta": 0.04,
+                      "longitude": 12.34,
+                      "longitudeDelta": 0.04,
+                    }
+                  }
+                  loadingEnabled={true}
+                  showsMyLocationButton={true}
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <MapMarker
+                    coordinate={
+                      Object {
+                        "latitude": 12.34,
+                        "longitude": 12.34,
+                      }
+                    }
+                    description="test"
+                    onPress={[Function]}
+                    title="Destination"
+                  >
+                    <View>
+                      <Component
+                        name="md-pin"
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "color": "#EF473A",
+                            "fontSize": 26,
+                          }
+                        }
+                      />
+                    </View>
+                  </MapMarker>
+                </MapView>,
+                "style": Object {
+                  "height": 400,
+                  "marginVertical": 20,
+                  "width": 670,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <MapMarker
+                    coordinate={
+                      Object {
+                        "latitude": 12.34,
+                        "longitude": 12.34,
+                      }
+                    }
+                    description="test"
+                    onPress={[Function]}
+                    title="Destination"
+                  >
+                    <View>
+                      <Component
+                        name="md-pin"
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "color": "#EF473A",
+                            "fontSize": 26,
+                          }
+                        }
+                      />
+                    </View>
+                  </MapMarker>,
+                  "initialRegion": Object {
+                    "latitude": 12.34,
+                    "latitudeDelta": 0.04,
+                    "longitude": 12.34,
+                    "longitudeDelta": 0.04,
+                  },
+                  "loadingEnabled": true,
+                  "showsMyLocationButton": true,
+                  "style": Object {
+                    "flex": 1,
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <View>
+                      <Component
+                        name="md-pin"
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "color": "#EF473A",
+                            "fontSize": 26,
+                          }
+                        }
+                      />
+                    </View>,
+                    "coordinate": Object {
+                      "latitude": 12.34,
+                      "longitude": 12.34,
+                    },
+                    "description": "test",
+                    "onPress": [Function],
+                    "title": "Destination",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Component
+                        name="md-pin"
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "color": "#EF473A",
+                            "fontSize": 26,
+                          }
+                        }
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "md-pin",
+                        "style": Object {
+                          "backgroundColor": "transparent",
+                          "color": "#EF473A",
+                          "fontSize": 26,
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "Component",
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 14,
+                        "width": 260,
+                      }
+                    }
+                  >
+                    Start Date:
+                  </Text>,
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 18,
+                        "width": 400,
+                      }
+                    }
+                  >
+                    2018-02-02
+                  </Text>,
+                ],
+                "style": Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "Start Date:",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Start Date:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "2018-02-02",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "2018-02-02",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 14,
+                        "width": 260,
+                      }
+                    }
+                  >
+                    End Date:
+                  </Text>,
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "fontSize": 18,
+                        "width": 400,
+                      }
+                    }
+                  >
+                    2018-02-28
+                  </Text>,
+                ],
+                "style": Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "End Date:",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "End Date:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "2018-02-28",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "#5C6063",
+                      "fontSize": 18,
+                      "width": 400,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "2018-02-28",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 14,
+                        "width": 260,
+                      }
+                    }
+                  >
+                    Comment:
+                  </Text>,
+                  <View>
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 18,
+                          "width": 400,
+                        }
+                      }
+                    >
+                      Test
+                    </Text>
+                  </View>,
+                ],
+                "style": Object {
+                  "flexDirection": "row",
+                  "marginBottom": 25,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "Comment:",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "black",
+                      "fontSize": 14,
+                      "width": 260,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Comment:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "color": "#5C6063",
+                          "fontSize": 18,
+                          "width": 400,
+                        }
+                      }
+                    >
+                      Test
+                    </Text>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "accessible": true,
+                      "allowFontScaling": true,
+                      "children": "Test",
+                      "ellipsizeMode": "tail",
+                      "style": Object {
+                        "color": "#5C6063",
+                        "fontSize": 18,
+                        "width": 400,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "Test",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": undefined,
+        },
+      ],
+      "type": undefined,
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

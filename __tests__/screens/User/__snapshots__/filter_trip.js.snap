@@ -1,0 +1,767 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserFilterTrip component renders correctly renders as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserFilterTrip
+    fetchAllRecords={[Function]}
+    fetchBlockData={[Function]}
+    fetchMyRecords={[Function]}
+    fetchUsers={[Function]}
+    filterOption={
+      Object {
+        "by": 0,
+        "from": "2018-02-10",
+        "to": "2018-02-28",
+      }
+    }
+    listenUserProfile={[Function]}
+    logout={[Function]}
+    myProfile={
+      Object {
+        "email": "litian19901120@gmail.com",
+        "name": "Tian Li",
+        "photo": "",
+        "role": "User",
+        "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+      }
+    }
+    saveAllRecords={[Function]}
+    saveBlockData={[Function]}
+    saveMyRecords={[Function]}
+    saveUserPhoto={[Function]}
+    saveUserProfile={[Function]}
+    saveUsers={[Function]}
+    setFilterOption={[Function]}
+    showToast={[Function]}
+    welcome={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <CustomHeader
+          backgroundColor="#3DA0F1"
+          left="ios-arrow-back"
+          onPressLeft={[Function]}
+          onPressRight={[Function]}
+          right={undefined}
+          title="Filter Option"
+        />,
+        <View
+          style={
+            Object {
+              "backgroundColor": "#F5FAFE",
+              "flex": 1,
+            }
+          }
+        >
+          <RadioForm
+            animation={true}
+            buttonColor="#2196f3"
+            disabled={false}
+            formHorizontal={false}
+            initial={0}
+            labelColor="#000"
+            labelHorizontal={true}
+            onPress={[Function]}
+            radio_props={
+              Array [
+                Object {
+                  "label": "Filter By StartDate",
+                  "value": 0,
+                },
+                Object {
+                  "label": "Filter By EndDate",
+                  "value": 1,
+                },
+              ]
+            }
+            selectedButtonColor="#2196f3"
+            selectedLabelColor="#000"
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "marginHorizontal": 20,
+                "marginVertical": 40,
+              }
+            }
+            wrapStyle={Object {}}
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+              }
+            }
+          >
+            <CustomDatePicker
+              date="2018-02-10"
+              front="From"
+              future={true}
+              minDate=""
+              mode="date"
+              onSelect={[Function]}
+              placeholder=""
+            />
+            <CustomDatePicker
+              date="2018-02-28"
+              front="To"
+              future={true}
+              minDate=""
+              mode="date"
+              onSelect={[Function]}
+              placeholder=""
+            />
+            <CustomButton
+              backgroundColor="#6DBF53"
+              onPress={[Function]}
+              testID="filter"
+              text="Filter"
+            />
+            <CustomButton
+              backgroundColor="#6DBF53"
+              onPress={[Function]}
+              testID="cancel-filter"
+              text="Cancel Filter"
+            />
+          </View>
+        </View>,
+      ],
+      "style": Object {
+        "flex": 1,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#3DA0F1",
+          "left": "ios-arrow-back",
+          "onPressLeft": [Function],
+          "onPressRight": [Function],
+          "right": undefined,
+          "title": "Filter Option",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <RadioForm
+              animation={true}
+              buttonColor="#2196f3"
+              disabled={false}
+              formHorizontal={false}
+              initial={0}
+              labelColor="#000"
+              labelHorizontal={true}
+              onPress={[Function]}
+              radio_props={
+                Array [
+                  Object {
+                    "label": "Filter By StartDate",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "Filter By EndDate",
+                    "value": 1,
+                  },
+                ]
+              }
+              selectedButtonColor="#2196f3"
+              selectedLabelColor="#000"
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "marginHorizontal": 20,
+                  "marginVertical": 40,
+                }
+              }
+              wrapStyle={Object {}}
+            />,
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <CustomDatePicker
+                date="2018-02-10"
+                front="From"
+                future={true}
+                minDate=""
+                mode="date"
+                onSelect={[Function]}
+                placeholder=""
+              />
+              <CustomDatePicker
+                date="2018-02-28"
+                front="To"
+                future={true}
+                minDate=""
+                mode="date"
+                onSelect={[Function]}
+                placeholder=""
+              />
+              <CustomButton
+                backgroundColor="#6DBF53"
+                onPress={[Function]}
+                testID="filter"
+                text="Filter"
+              />
+              <CustomButton
+                backgroundColor="#6DBF53"
+                onPress={[Function]}
+                testID="cancel-filter"
+                text="Cancel Filter"
+              />
+            </View>,
+          ],
+          "style": Object {
+            "backgroundColor": "#F5FAFE",
+            "flex": 1,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "animation": true,
+              "buttonColor": "#2196f3",
+              "disabled": false,
+              "formHorizontal": false,
+              "initial": 0,
+              "labelColor": "#000",
+              "labelHorizontal": true,
+              "onPress": [Function],
+              "radio_props": Array [
+                Object {
+                  "label": "Filter By StartDate",
+                  "value": 0,
+                },
+                Object {
+                  "label": "Filter By EndDate",
+                  "value": 1,
+                },
+              ],
+              "selectedButtonColor": "#2196f3",
+              "selectedLabelColor": "#000",
+              "style": Object {
+                "alignItems": "flex-start",
+                "marginHorizontal": 20,
+                "marginVertical": 40,
+              },
+              "wrapStyle": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <CustomDatePicker
+                  date="2018-02-10"
+                  front="From"
+                  future={true}
+                  minDate=""
+                  mode="date"
+                  onSelect={[Function]}
+                  placeholder=""
+                />,
+                <CustomDatePicker
+                  date="2018-02-28"
+                  front="To"
+                  future={true}
+                  minDate=""
+                  mode="date"
+                  onSelect={[Function]}
+                  placeholder=""
+                />,
+                <CustomButton
+                  backgroundColor="#6DBF53"
+                  onPress={[Function]}
+                  testID="filter"
+                  text="Filter"
+                />,
+                <CustomButton
+                  backgroundColor="#6DBF53"
+                  onPress={[Function]}
+                  testID="cancel-filter"
+                  text="Cancel Filter"
+                />,
+              ],
+              "style": Object {
+                "alignItems": "center",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "date": "2018-02-10",
+                  "front": "From",
+                  "future": true,
+                  "minDate": "",
+                  "mode": "date",
+                  "onSelect": [Function],
+                  "placeholder": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "date": "2018-02-28",
+                  "front": "To",
+                  "future": true,
+                  "minDate": "",
+                  "mode": "date",
+                  "onSelect": [Function],
+                  "placeholder": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "backgroundColor": "#6DBF53",
+                  "onPress": [Function],
+                  "testID": "filter",
+                  "text": "Filter",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "backgroundColor": "#6DBF53",
+                  "onPress": [Function],
+                  "testID": "cancel-filter",
+                  "text": "Cancel Filter",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <CustomHeader
+            backgroundColor="#3DA0F1"
+            left="ios-arrow-back"
+            onPressLeft={[Function]}
+            onPressRight={[Function]}
+            right={undefined}
+            title="Filter Option"
+          />,
+          <View
+            style={
+              Object {
+                "backgroundColor": "#F5FAFE",
+                "flex": 1,
+              }
+            }
+          >
+            <RadioForm
+              animation={true}
+              buttonColor="#2196f3"
+              disabled={false}
+              formHorizontal={false}
+              initial={0}
+              labelColor="#000"
+              labelHorizontal={true}
+              onPress={[Function]}
+              radio_props={
+                Array [
+                  Object {
+                    "label": "Filter By StartDate",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "Filter By EndDate",
+                    "value": 1,
+                  },
+                ]
+              }
+              selectedButtonColor="#2196f3"
+              selectedLabelColor="#000"
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "marginHorizontal": 20,
+                  "marginVertical": 40,
+                }
+              }
+              wrapStyle={Object {}}
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <CustomDatePicker
+                date="2018-02-10"
+                front="From"
+                future={true}
+                minDate=""
+                mode="date"
+                onSelect={[Function]}
+                placeholder=""
+              />
+              <CustomDatePicker
+                date="2018-02-28"
+                front="To"
+                future={true}
+                minDate=""
+                mode="date"
+                onSelect={[Function]}
+                placeholder=""
+              />
+              <CustomButton
+                backgroundColor="#6DBF53"
+                onPress={[Function]}
+                testID="filter"
+                text="Filter"
+              />
+              <CustomButton
+                backgroundColor="#6DBF53"
+                onPress={[Function]}
+                testID="cancel-filter"
+                text="Cancel Filter"
+              />
+            </View>
+          </View>,
+        ],
+        "style": Object {
+          "flex": 1,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundColor": "#3DA0F1",
+            "left": "ios-arrow-back",
+            "onPressLeft": [Function],
+            "onPressRight": [Function],
+            "right": undefined,
+            "title": "Filter Option",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <RadioForm
+                animation={true}
+                buttonColor="#2196f3"
+                disabled={false}
+                formHorizontal={false}
+                initial={0}
+                labelColor="#000"
+                labelHorizontal={true}
+                onPress={[Function]}
+                radio_props={
+                  Array [
+                    Object {
+                      "label": "Filter By StartDate",
+                      "value": 0,
+                    },
+                    Object {
+                      "label": "Filter By EndDate",
+                      "value": 1,
+                    },
+                  ]
+                }
+                selectedButtonColor="#2196f3"
+                selectedLabelColor="#000"
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "marginHorizontal": 20,
+                    "marginVertical": 40,
+                  }
+                }
+                wrapStyle={Object {}}
+              />,
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                  }
+                }
+              >
+                <CustomDatePicker
+                  date="2018-02-10"
+                  front="From"
+                  future={true}
+                  minDate=""
+                  mode="date"
+                  onSelect={[Function]}
+                  placeholder=""
+                />
+                <CustomDatePicker
+                  date="2018-02-28"
+                  front="To"
+                  future={true}
+                  minDate=""
+                  mode="date"
+                  onSelect={[Function]}
+                  placeholder=""
+                />
+                <CustomButton
+                  backgroundColor="#6DBF53"
+                  onPress={[Function]}
+                  testID="filter"
+                  text="Filter"
+                />
+                <CustomButton
+                  backgroundColor="#6DBF53"
+                  onPress={[Function]}
+                  testID="cancel-filter"
+                  text="Cancel Filter"
+                />
+              </View>,
+            ],
+            "style": Object {
+              "backgroundColor": "#F5FAFE",
+              "flex": 1,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "animation": true,
+                "buttonColor": "#2196f3",
+                "disabled": false,
+                "formHorizontal": false,
+                "initial": 0,
+                "labelColor": "#000",
+                "labelHorizontal": true,
+                "onPress": [Function],
+                "radio_props": Array [
+                  Object {
+                    "label": "Filter By StartDate",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "Filter By EndDate",
+                    "value": 1,
+                  },
+                ],
+                "selectedButtonColor": "#2196f3",
+                "selectedLabelColor": "#000",
+                "style": Object {
+                  "alignItems": "flex-start",
+                  "marginHorizontal": 20,
+                  "marginVertical": 40,
+                },
+                "wrapStyle": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <CustomDatePicker
+                    date="2018-02-10"
+                    front="From"
+                    future={true}
+                    minDate=""
+                    mode="date"
+                    onSelect={[Function]}
+                    placeholder=""
+                  />,
+                  <CustomDatePicker
+                    date="2018-02-28"
+                    front="To"
+                    future={true}
+                    minDate=""
+                    mode="date"
+                    onSelect={[Function]}
+                    placeholder=""
+                  />,
+                  <CustomButton
+                    backgroundColor="#6DBF53"
+                    onPress={[Function]}
+                    testID="filter"
+                    text="Filter"
+                  />,
+                  <CustomButton
+                    backgroundColor="#6DBF53"
+                    onPress={[Function]}
+                    testID="cancel-filter"
+                    text="Cancel Filter"
+                  />,
+                ],
+                "style": Object {
+                  "alignItems": "center",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "date": "2018-02-10",
+                    "front": "From",
+                    "future": true,
+                    "minDate": "",
+                    "mode": "date",
+                    "onSelect": [Function],
+                    "placeholder": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "date": "2018-02-28",
+                    "front": "To",
+                    "future": true,
+                    "minDate": "",
+                    "mode": "date",
+                    "onSelect": [Function],
+                    "placeholder": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "backgroundColor": "#6DBF53",
+                    "onPress": [Function],
+                    "testID": "filter",
+                    "text": "Filter",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "backgroundColor": "#6DBF53",
+                    "onPress": [Function],
+                    "testID": "cancel-filter",
+                    "text": "Cancel Filter",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

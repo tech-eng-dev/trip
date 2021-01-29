@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5FAFE",
+      "borderRadius": 30,
+      "height": 60,
+      "overflow": "hidden",
+      "position": "relative",
+      "width": 60,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/resources/images/person.png",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#F5FAFE",
+        "borderRadius": 30,
+        "height": 60,
+        "overflow": "hidden",
+        "position": "relative",
+        "width": 60,
+      }
+    }
+  />
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/resources/images/block.png",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 30,
+        "height": 60,
+        "opacity": 0.5,
+        "overflow": "hidden",
+        "position": "absolute",
+        "width": 60,
+      }
+    }
+  />
+</View>
+`;

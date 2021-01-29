@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "black",
+    }
+  }
+>
+  <Component>
+    <Component
+      onPress={[Function]}
+      testID="Title-header-left-button"
+      transparent={true}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#F5FAFE",
+              "fontSize": 30,
+            },
+            Object {
+              "marginHorizontal": 6,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </Component>
+  </Component>
+  <Component>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "width": 500,
+        }
+      }
+    >
+      Title
+    </Text>
+  </Component>
+  <Component>
+    <Component
+      onPress={[Function]}
+      testID="header-right-button"
+      transparent={true}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#F5FAFE",
+              "fontSize": 30,
+            },
+            Object {
+              "marginHorizontal": 6,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </Component>
+  </Component>
+</Component>
+`;

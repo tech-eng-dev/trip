@@ -1,0 +1,764 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAddTrip component renders correctly renders as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserAddTrip
+    fetchAllRecords={[Function]}
+    fetchBlockData={[Function]}
+    fetchMyRecords={[Function]}
+    fetchUsers={[Function]}
+    listenUserProfile={[Function]}
+    logout={[Function]}
+    myProfile={
+      Object {
+        "email": "litian19901120@gmail.com",
+        "name": "Tian Li",
+        "photo": "",
+        "role": "User",
+        "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+      }
+    }
+    navigation={
+      Object {
+        "goBack": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "role": "User",
+            "trip": Object {
+              "comment": "Test",
+              "createdTime": "1518174116204",
+              "endDate": "2018-02-28",
+              "location": Object {
+                "description": "test",
+                "geometry": Object {
+                  "location": Object {
+                    "lat": 12.34,
+                    "lng": 12.34,
+                  },
+                  "viewport": Object {
+                    "northeast": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                    "southwest": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                  },
+                },
+                "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+              },
+              "startDate": "2018-02-02",
+            },
+            "user": Object {
+              "blocked": false,
+              "email": "litian19901120@gmail.com",
+              "name": "Tian Li",
+              "photo": "",
+              "role": "User",
+              "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+            },
+          },
+        },
+      }
+    }
+    saveAllRecords={[Function]}
+    saveBlockData={[Function]}
+    saveMyRecords={[Function]}
+    saveUserPhoto={[Function]}
+    saveUserProfile={[Function]}
+    saveUsers={[Function]}
+    setFilterOption={[Function]}
+    showToast={[Function]}
+    welcome={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <CustomHeader
+          backgroundColor="#3DA0F1"
+          left="ios-arrow-back"
+          onPressLeft={[Function]}
+          onPressRight={[Function]}
+          right={undefined}
+          title="Add Trip"
+        />,
+        <UNDEFINED
+          contentContainerStyle={
+            Object {
+              "alignItems": "center",
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 400,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#5C6063",
+                  "marginBottom": 10,
+                }
+              }
+            >
+              Your destination
+            </Text>
+            <GooglePlacePicker
+              defaultValue=""
+              onPress={[Function]}
+              width={640}
+            />
+          </View>
+          <CustomDatePicker
+            date="2018-02-14"
+            front="From"
+            minDate=""
+            mode="date"
+            onSelect={[Function]}
+            placeholder=""
+          />
+          <CustomDatePicker
+            date="2018-02-14"
+            front="To"
+            minDate=""
+            mode="date"
+            onSelect={[Function]}
+            placeholder=""
+          />
+          <CustomInput
+            autoCapitalize="none"
+            border={true}
+            keyboardType="default"
+            multiline={true}
+            onChange={[Function]}
+            placeholder="Comment"
+            secureTextEntry={false}
+            testID=""
+            text=""
+            width={640}
+          />
+          <CustomButton
+            backgroundColor="#6DBF53"
+            onPress={[Function]}
+            testID=""
+            text="Add"
+          />
+        </UNDEFINED>,
+        <CustomLoadingView
+          visible={false}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#3DA0F1",
+          "left": "ios-arrow-back",
+          "onPressLeft": [Function],
+          "onPressRight": [Function],
+          "right": undefined,
+          "title": "Add Trip",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            null,
+            <View
+              style={
+                Object {
+                  "height": 400,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                Your destination
+              </Text>
+              <GooglePlacePicker
+                defaultValue=""
+                onPress={[Function]}
+                width={640}
+              />
+            </View>,
+            <CustomDatePicker
+              date="2018-02-14"
+              front="From"
+              minDate=""
+              mode="date"
+              onSelect={[Function]}
+              placeholder=""
+            />,
+            <CustomDatePicker
+              date="2018-02-14"
+              front="To"
+              minDate=""
+              mode="date"
+              onSelect={[Function]}
+              placeholder=""
+            />,
+            <CustomInput
+              autoCapitalize="none"
+              border={true}
+              keyboardType="default"
+              multiline={true}
+              onChange={[Function]}
+              placeholder="Comment"
+              secureTextEntry={false}
+              testID=""
+              text=""
+              width={640}
+            />,
+            <CustomButton
+              backgroundColor="#6DBF53"
+              onPress={[Function]}
+              testID=""
+              text="Add"
+            />,
+          ],
+          "contentContainerStyle": Object {
+            "alignItems": "center",
+            "paddingVertical": 30,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "marginBottom": 10,
+                    }
+                  }
+                >
+                  Your destination
+                </Text>,
+                <GooglePlacePicker
+                  defaultValue=""
+                  onPress={[Function]}
+                  width={640}
+                />,
+              ],
+              "style": Object {
+                "height": 400,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Your destination",
+                  "ellipsizeMode": "tail",
+                  "style": Object {
+                    "color": "#5C6063",
+                    "marginBottom": 10,
+                  },
+                },
+                "ref": null,
+                "rendered": "Your destination",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultValue": "",
+                  "onPress": [Function],
+                  "width": 640,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "date": "2018-02-14",
+              "front": "From",
+              "minDate": "",
+              "mode": "date",
+              "onSelect": [Function],
+              "placeholder": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "date": "2018-02-14",
+              "front": "To",
+              "minDate": "",
+              "mode": "date",
+              "onSelect": [Function],
+              "placeholder": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoCapitalize": "none",
+              "border": true,
+              "keyboardType": "default",
+              "multiline": true,
+              "onChange": [Function],
+              "placeholder": "Comment",
+              "secureTextEntry": false,
+              "testID": "",
+              "text": "",
+              "width": 640,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "backgroundColor": "#6DBF53",
+              "onPress": [Function],
+              "testID": "",
+              "text": "Add",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": undefined,
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "visible": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": undefined,
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <CustomHeader
+            backgroundColor="#3DA0F1"
+            left="ios-arrow-back"
+            onPressLeft={[Function]}
+            onPressRight={[Function]}
+            right={undefined}
+            title="Add Trip"
+          />,
+          <UNDEFINED
+            contentContainerStyle={
+              Object {
+                "alignItems": "center",
+                "paddingVertical": 30,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 400,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#5C6063",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                Your destination
+              </Text>
+              <GooglePlacePicker
+                defaultValue=""
+                onPress={[Function]}
+                width={640}
+              />
+            </View>
+            <CustomDatePicker
+              date="2018-02-14"
+              front="From"
+              minDate=""
+              mode="date"
+              onSelect={[Function]}
+              placeholder=""
+            />
+            <CustomDatePicker
+              date="2018-02-14"
+              front="To"
+              minDate=""
+              mode="date"
+              onSelect={[Function]}
+              placeholder=""
+            />
+            <CustomInput
+              autoCapitalize="none"
+              border={true}
+              keyboardType="default"
+              multiline={true}
+              onChange={[Function]}
+              placeholder="Comment"
+              secureTextEntry={false}
+              testID=""
+              text=""
+              width={640}
+            />
+            <CustomButton
+              backgroundColor="#6DBF53"
+              onPress={[Function]}
+              testID=""
+              text="Add"
+            />
+          </UNDEFINED>,
+          <CustomLoadingView
+            visible={false}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundColor": "#3DA0F1",
+            "left": "ios-arrow-back",
+            "onPressLeft": [Function],
+            "onPressRight": [Function],
+            "right": undefined,
+            "title": "Add Trip",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              null,
+              <View
+                style={
+                  Object {
+                    "height": 400,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#5C6063",
+                      "marginBottom": 10,
+                    }
+                  }
+                >
+                  Your destination
+                </Text>
+                <GooglePlacePicker
+                  defaultValue=""
+                  onPress={[Function]}
+                  width={640}
+                />
+              </View>,
+              <CustomDatePicker
+                date="2018-02-14"
+                front="From"
+                minDate=""
+                mode="date"
+                onSelect={[Function]}
+                placeholder=""
+              />,
+              <CustomDatePicker
+                date="2018-02-14"
+                front="To"
+                minDate=""
+                mode="date"
+                onSelect={[Function]}
+                placeholder=""
+              />,
+              <CustomInput
+                autoCapitalize="none"
+                border={true}
+                keyboardType="default"
+                multiline={true}
+                onChange={[Function]}
+                placeholder="Comment"
+                secureTextEntry={false}
+                testID=""
+                text=""
+                width={640}
+              />,
+              <CustomButton
+                backgroundColor="#6DBF53"
+                onPress={[Function]}
+                testID=""
+                text="Add"
+              />,
+            ],
+            "contentContainerStyle": Object {
+              "alignItems": "center",
+              "paddingVertical": 30,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "color": "#5C6063",
+                        "marginBottom": 10,
+                      }
+                    }
+                  >
+                    Your destination
+                  </Text>,
+                  <GooglePlacePicker
+                    defaultValue=""
+                    onPress={[Function]}
+                    width={640}
+                  />,
+                ],
+                "style": Object {
+                  "height": 400,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "accessible": true,
+                    "allowFontScaling": true,
+                    "children": "Your destination",
+                    "ellipsizeMode": "tail",
+                    "style": Object {
+                      "color": "#5C6063",
+                      "marginBottom": 10,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Your destination",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultValue": "",
+                    "onPress": [Function],
+                    "width": 640,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "date": "2018-02-14",
+                "front": "From",
+                "minDate": "",
+                "mode": "date",
+                "onSelect": [Function],
+                "placeholder": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "date": "2018-02-14",
+                "front": "To",
+                "minDate": "",
+                "mode": "date",
+                "onSelect": [Function],
+                "placeholder": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoCapitalize": "none",
+                "border": true,
+                "keyboardType": "default",
+                "multiline": true,
+                "onChange": [Function],
+                "placeholder": "Comment",
+                "secureTextEntry": false,
+                "testID": "",
+                "text": "",
+                "width": 640,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "backgroundColor": "#6DBF53",
+                "onPress": [Function],
+                "testID": "",
+                "text": "Add",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": undefined,
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "visible": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": undefined,
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

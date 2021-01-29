@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GooglePlacePicker renders correctly 1`] = `
+<Component
+  autoFocus={false}
+  fetchDetails={true}
+  getDefaultValue={[Function]}
+  minLength={2}
+  onPress={[Function]}
+  placeholder="Enter Location"
+  query={
+    Object {
+      "key": "AIzaSyCxTEst__Vbg0waRjgtd3dOdDESrTOTZPc",
+      "language": "en",
+    }
+  }
+  returnKeyType="default"
+  styles={
+    Object {
+      "listView": Object {
+        "backgroundColor": "#3DA0F1",
+        "padding": 0,
+        "width": 300,
+      },
+      "predefinedPlacesDescription": Object {
+        "color": "#1faadb",
+      },
+      "textInput": Object {
+        "backgroundColor": "transparent",
+        "color": "#5C6063",
+        "fontSize": 16,
+        "height": 38,
+        "margin": 0,
+        "padding": 10,
+      },
+      "textInputContainer": Object {
+        "backgroundColor": "#EEEEEE",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "padding": 0,
+        "width": 300,
+      },
+    }
+  }
+/>
+`;

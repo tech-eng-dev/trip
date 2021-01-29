@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManagerEditUser component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#3DA0F1",
+      }
+    }
+  >
+    <Component>
+      <Component
+        onPress={[Function]}
+        testID="EditUser-header-left-button"
+        transparent={true}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#F5FAFE",
+                "fontSize": 30,
+              },
+              Object {
+                "marginHorizontal": 6,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </Component>
+    </Component>
+    <Component>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "textAlign": "center",
+            "width": 500,
+          }
+        }
+      >
+        Edit User
+      </Text>
+    </Component>
+    <Component />
+  </Component>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F5FAFE",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#6DBF53",
+          "height": 400,
+          "justifyContent": "center",
+          "width": 750,
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#F5FAFE",
+              "borderRadius": 100,
+              "height": 200,
+              "overflow": "hidden",
+              "position": "relative",
+              "width": 200,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/resources/images/person.png",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#F5FAFE",
+                "borderRadius": 100,
+                "height": 200,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 200,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingLeft": 120,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          autoCorrect={false}
+          keyboardType="default"
+          maxLength={40}
+          onChangeText={[Function]}
+          placeholder="Username"
+          secureTextEntry={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#EEEEEE",
+                "borderColor": "#5C6063",
+                "borderRadius": 4,
+                "color": "#5C6063",
+                "fontSize": 20,
+                "height": 40,
+                "marginVertical": 10,
+                "paddingHorizontal": 10,
+                "paddingVertical": 0,
+              },
+              Object {
+                "borderWidth": 0.5,
+                "width": 500,
+              },
+            ]
+          }
+          testID="user-edit-name-input"
+          underlineColorAndroid="transparent"
+          value="Tian Li"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginTop": 40,
+            "paddingHorizontal": 120,
+          }
+        }
+      >
+        <Component
+          name="md-person"
+          style={
+            Object {
+              "color": "#5C6063",
+              "fontSize": 30,
+              "marginRight": 20,
+              "width": 60,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#5C6063",
+              "flex": 1,
+              "fontSize": 20,
+            }
+          }
+        >
+          User
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginTop": 40,
+            "paddingHorizontal": 120,
+          }
+        }
+      >
+        <Component
+          name="md-mail"
+          style={
+            Object {
+              "color": "#5C6063",
+              "fontSize": 30,
+              "marginRight": 20,
+              "width": 60,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#5C6063",
+              "flex": 1,
+              "fontSize": 20,
+            }
+          }
+        >
+          litian19901120@gmail.com
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

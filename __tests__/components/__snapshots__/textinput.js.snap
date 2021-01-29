@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput renders correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  autoCapitalize="sentences"
+  autoCorrect={true}
+  keyboardType="default"
+  maxLength={1024}
+  multiline={true}
+  onChangeText={[Function]}
+  placeholder="test"
+  secureTextEntry={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EEEEEE",
+        "borderColor": "#5C6063",
+        "borderRadius": 4,
+        "color": "#5C6063",
+        "fontSize": 20,
+        "height": 40,
+        "marginVertical": 10,
+        "paddingHorizontal": 10,
+        "paddingVertical": 0,
+      },
+      Object {
+        "borderWidth": 0.5,
+        "height": 150,
+        "textAlignVertical": "top",
+        "width": 200,
+      },
+    ]
+  }
+  testID="test"
+  underlineColorAndroid="transparent"
+  value="test"
+/>
+`;

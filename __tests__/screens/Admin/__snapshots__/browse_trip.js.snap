@@ -1,0 +1,825 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminBrowseTrip renders correctly renders as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AdminBrowseTrip
+    allRecords={
+      Array [
+        Object {
+          "comment": "Test",
+          "createdTime": "1518174116204",
+          "endDate": "2018-02-28",
+          "location": Object {
+            "description": "test",
+            "geometry": Object {
+              "location": Object {
+                "lat": "12.34",
+                "lng": "12.34",
+              },
+              "viewport": Object {
+                "northeast": Object {
+                  "lat": "12.34",
+                  "lng": "12.34",
+                },
+                "southwest": Object {
+                  "lat": "12.34",
+                  "lng": "12.34",
+                },
+              },
+            },
+            "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+          },
+        },
+      ]
+    }
+    allUsers={undefined}
+    fetchAllRecords={[Function]}
+    fetchBlockData={[Function]}
+    fetchMyRecords={[Function]}
+    fetchUsers={[Function]}
+    filterOption={
+      Object {
+        "by": 0,
+        "from": "2018-02-10",
+        "to": "2018-02-28",
+      }
+    }
+    handle={
+      Object {
+        "navigation": Object {
+          "goBack": [MockFunction],
+          "state": Object {
+            "params": Object {
+              "role": "User",
+              "trip": Object {
+                "comment": "Test",
+                "createdTime": "1518174116204",
+                "endDate": "2018-02-28",
+                "location": Object {
+                  "description": "test",
+                  "geometry": Object {
+                    "location": Object {
+                      "lat": 12.34,
+                      "lng": 12.34,
+                    },
+                    "viewport": Object {
+                      "northeast": Object {
+                        "lat": 12.34,
+                        "lng": 12.34,
+                      },
+                      "southwest": Object {
+                        "lat": 12.34,
+                        "lng": 12.34,
+                      },
+                    },
+                  },
+                  "id": "ad013b06650801c352d643dc90db93210e5d07cb",
+                },
+                "startDate": "2018-02-02",
+              },
+              "user": Object {
+                "blocked": false,
+                "email": "litian19901120@gmail.com",
+                "name": "Tian Li",
+                "photo": "",
+                "role": "User",
+                "uid": "VZx9D1IMIdT0gXCtsh2mymcXawd2",
+              },
+            },
+          },
+        },
+      }
+    }
+    listenUserProfile={[Function]}
+    logout={[Function]}
+    onPressLeft={[Function]}
+    saveAllRecords={[Function]}
+    saveBlockData={[Function]}
+    saveMyRecords={[Function]}
+    saveUserPhoto={[Function]}
+    saveUserProfile={[Function]}
+    saveUsers={[Function]}
+    setFilterOption={[Function]}
+    showToast={[Function]}
+    welcome={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <CustomHeader
+          backgroundColor="#3DA0F1"
+          left="ios-menu"
+          onPressLeft={[Function]}
+          onPressRight={[Function]}
+          right={undefined}
+          title="Browse Trips"
+        />,
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#6DBF53",
+              "height": 50,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <CustomInput
+            autoCapitalize="none"
+            border={false}
+            keyboardType="default"
+            multiline={false}
+            onChange={[Function]}
+            placeholder="Search"
+            secureTextEntry={false}
+            testID="trip-search-input"
+            text=""
+            width={700}
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 10,
+                "flexDirection": "row",
+                "height": 30,
+                "position": "absolute",
+                "right": 20,
+                "top": 10,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              testID="trip-filter"
+            >
+              <Component
+                name="ios-funnel-outline"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#5C6063",
+                    "fontSize": 30,
+                    "marginHorizontal": 5,
+                  }
+                }
+              />
+            </TouchableOpacity>
+          </View>
+        </View>,
+        <UNDEFINED
+          contentContainerStyle={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <SwipeListView
+            closeOnRowBeginSwipe={false}
+            closeOnRowPress={true}
+            closeOnScroll={true}
+            dataSource={
+              ListViewDataSource {
+                "items": 1,
+              }
+            }
+            directionalDistanceChangeThreshold={2}
+            disableLeftSwipe={false}
+            disableRightSwipe={false}
+            enableEmptySections={true}
+            leftOpenValue={0}
+            previewFirstRow={false}
+            recalculateHiddenLayout={false}
+            renderRow={[Function]}
+            rightOpenValue={0}
+            swipeToClosePercent={50}
+            swipeToOpenPercent={50}
+            swipeToOpenVelocityContribution={0}
+          />
+        </UNDEFINED>,
+      ],
+      "style": Object {
+        "backgroundColor": "#F5FAFE",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#3DA0F1",
+          "left": "ios-menu",
+          "onPressLeft": [Function],
+          "onPressRight": [Function],
+          "right": undefined,
+          "title": "Browse Trips",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <CustomInput
+              autoCapitalize="none"
+              border={false}
+              keyboardType="default"
+              multiline={false}
+              onChange={[Function]}
+              placeholder="Search"
+              secureTextEntry={false}
+              testID="trip-search-input"
+              text=""
+              width={700}
+            />,
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 10,
+                  "flexDirection": "row",
+                  "height": 30,
+                  "position": "absolute",
+                  "right": 20,
+                  "top": 10,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                testID="trip-filter"
+              >
+                <Component
+                  name="ios-funnel-outline"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>,
+          ],
+          "style": Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#6DBF53",
+            "height": 50,
+            "justifyContent": "center",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoCapitalize": "none",
+              "border": false,
+              "keyboardType": "default",
+              "multiline": false,
+              "onChange": [Function],
+              "placeholder": "Search",
+              "secureTextEntry": false,
+              "testID": "trip-search-input",
+              "text": "",
+              "width": 700,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                testID="trip-filter"
+              >
+                <Component
+                  name="ios-funnel-outline"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                />
+              </TouchableOpacity>,
+              "style": Object {
+                "alignItems": "center",
+                "bottom": 10,
+                "flexDirection": "row",
+                "height": 30,
+                "position": "absolute",
+                "right": 20,
+                "top": 10,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "activeOpacity": 0.2,
+                "children": <Component
+                  name="ios-funnel-outline"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                />,
+                "onPress": [Function],
+                "testID": "trip-filter",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "ios-funnel-outline",
+                  "style": Object {
+                    "backgroundColor": "transparent",
+                    "color": "#5C6063",
+                    "fontSize": 30,
+                    "marginHorizontal": 5,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "Component",
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <SwipeListView
+            closeOnRowBeginSwipe={false}
+            closeOnRowPress={true}
+            closeOnScroll={true}
+            dataSource={
+              ListViewDataSource {
+                "items": 1,
+              }
+            }
+            directionalDistanceChangeThreshold={2}
+            disableLeftSwipe={false}
+            disableRightSwipe={false}
+            enableEmptySections={true}
+            leftOpenValue={0}
+            previewFirstRow={false}
+            recalculateHiddenLayout={false}
+            renderRow={[Function]}
+            rightOpenValue={0}
+            swipeToClosePercent={50}
+            swipeToOpenPercent={50}
+            swipeToOpenVelocityContribution={0}
+          />,
+          "contentContainerStyle": Object {
+            "flex": 1,
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "closeOnRowBeginSwipe": false,
+            "closeOnRowPress": true,
+            "closeOnScroll": true,
+            "dataSource": ListViewDataSource {
+              "items": 1,
+            },
+            "directionalDistanceChangeThreshold": 2,
+            "disableLeftSwipe": false,
+            "disableRightSwipe": false,
+            "enableEmptySections": true,
+            "leftOpenValue": 0,
+            "previewFirstRow": false,
+            "recalculateHiddenLayout": false,
+            "renderRow": [Function],
+            "rightOpenValue": 0,
+            "swipeToClosePercent": 50,
+            "swipeToOpenPercent": 50,
+            "swipeToOpenVelocityContribution": 0,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": undefined,
+      },
+    ],
+    "type": undefined,
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <CustomHeader
+            backgroundColor="#3DA0F1"
+            left="ios-menu"
+            onPressLeft={[Function]}
+            onPressRight={[Function]}
+            right={undefined}
+            title="Browse Trips"
+          />,
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#6DBF53",
+                "height": 50,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <CustomInput
+              autoCapitalize="none"
+              border={false}
+              keyboardType="default"
+              multiline={false}
+              onChange={[Function]}
+              placeholder="Search"
+              secureTextEntry={false}
+              testID="trip-search-input"
+              text=""
+              width={700}
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 10,
+                  "flexDirection": "row",
+                  "height": 30,
+                  "position": "absolute",
+                  "right": 20,
+                  "top": 10,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                testID="trip-filter"
+              >
+                <Component
+                  name="ios-funnel-outline"
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+          </View>,
+          <UNDEFINED
+            contentContainerStyle={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <SwipeListView
+              closeOnRowBeginSwipe={false}
+              closeOnRowPress={true}
+              closeOnScroll={true}
+              dataSource={
+                ListViewDataSource {
+                  "items": 1,
+                }
+              }
+              directionalDistanceChangeThreshold={2}
+              disableLeftSwipe={false}
+              disableRightSwipe={false}
+              enableEmptySections={true}
+              leftOpenValue={0}
+              previewFirstRow={false}
+              recalculateHiddenLayout={false}
+              renderRow={[Function]}
+              rightOpenValue={0}
+              swipeToClosePercent={50}
+              swipeToOpenPercent={50}
+              swipeToOpenVelocityContribution={0}
+            />
+          </UNDEFINED>,
+        ],
+        "style": Object {
+          "backgroundColor": "#F5FAFE",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundColor": "#3DA0F1",
+            "left": "ios-menu",
+            "onPressLeft": [Function],
+            "onPressRight": [Function],
+            "right": undefined,
+            "title": "Browse Trips",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <CustomInput
+                autoCapitalize="none"
+                border={false}
+                keyboardType="default"
+                multiline={false}
+                onChange={[Function]}
+                placeholder="Search"
+                secureTextEntry={false}
+                testID="trip-search-input"
+                text=""
+                width={700}
+              />,
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "bottom": 10,
+                    "flexDirection": "row",
+                    "height": 30,
+                    "position": "absolute",
+                    "right": 20,
+                    "top": 10,
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  testID="trip-filter"
+                >
+                  <Component
+                    name="ios-funnel-outline"
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginHorizontal": 5,
+                      }
+                    }
+                  />
+                </TouchableOpacity>
+              </View>,
+            ],
+            "style": Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#6DBF53",
+              "height": 50,
+              "justifyContent": "center",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoCapitalize": "none",
+                "border": false,
+                "keyboardType": "default",
+                "multiline": false,
+                "onChange": [Function],
+                "placeholder": "Search",
+                "secureTextEntry": false,
+                "testID": "trip-search-input",
+                "text": "",
+                "width": 700,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TouchableOpacity
+                  activeOpacity={0.2}
+                  onPress={[Function]}
+                  testID="trip-filter"
+                >
+                  <Component
+                    name="ios-funnel-outline"
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginHorizontal": 5,
+                      }
+                    }
+                  />
+                </TouchableOpacity>,
+                "style": Object {
+                  "alignItems": "center",
+                  "bottom": 10,
+                  "flexDirection": "row",
+                  "height": 30,
+                  "position": "absolute",
+                  "right": 20,
+                  "top": 10,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "activeOpacity": 0.2,
+                  "children": <Component
+                    name="ios-funnel-outline"
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#5C6063",
+                        "fontSize": 30,
+                        "marginHorizontal": 5,
+                      }
+                    }
+                  />,
+                  "onPress": [Function],
+                  "testID": "trip-filter",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "ios-funnel-outline",
+                    "style": Object {
+                      "backgroundColor": "transparent",
+                      "color": "#5C6063",
+                      "fontSize": 30,
+                      "marginHorizontal": 5,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "Component",
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <SwipeListView
+              closeOnRowBeginSwipe={false}
+              closeOnRowPress={true}
+              closeOnScroll={true}
+              dataSource={
+                ListViewDataSource {
+                  "items": 1,
+                }
+              }
+              directionalDistanceChangeThreshold={2}
+              disableLeftSwipe={false}
+              disableRightSwipe={false}
+              enableEmptySections={true}
+              leftOpenValue={0}
+              previewFirstRow={false}
+              recalculateHiddenLayout={false}
+              renderRow={[Function]}
+              rightOpenValue={0}
+              swipeToClosePercent={50}
+              swipeToOpenPercent={50}
+              swipeToOpenVelocityContribution={0}
+            />,
+            "contentContainerStyle": Object {
+              "flex": 1,
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "closeOnRowBeginSwipe": false,
+              "closeOnRowPress": true,
+              "closeOnScroll": true,
+              "dataSource": ListViewDataSource {
+                "items": 1,
+              },
+              "directionalDistanceChangeThreshold": 2,
+              "disableLeftSwipe": false,
+              "disableRightSwipe": false,
+              "enableEmptySections": true,
+              "leftOpenValue": 0,
+              "previewFirstRow": false,
+              "recalculateHiddenLayout": false,
+              "renderRow": [Function],
+              "rightOpenValue": 0,
+              "swipeToClosePercent": 50,
+              "swipeToOpenPercent": 50,
+              "swipeToOpenVelocityContribution": 0,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": undefined,
+        },
+      ],
+      "type": undefined,
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;
